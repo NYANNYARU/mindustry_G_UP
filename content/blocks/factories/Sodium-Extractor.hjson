@@ -14,7 +14,7 @@ consumes: {
   power: 1.25
   liquid: {
     liquid: water
-    amount: 0.53
+    amount: 0.5333333333333
   }
 }
 requirements: [
