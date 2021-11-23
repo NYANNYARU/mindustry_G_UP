@@ -9,7 +9,7 @@ hasLiquids: true
 hasItems: false
 craftTime: 60
 craftEffect: steam
-updateEffect: oily
+updateEffect: wet
 consumes: {
   power: 1.25
   liquid: {
@@ -26,5 +26,5 @@ requirements: [
 category: crafting
 research: graphite-press
 loopSound: machine
-loopSoundVolume: 1.05
+loopSoundVolume: 1
 outputItem: Sodium/1
