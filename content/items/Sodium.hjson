@@ -3,3 +3,16 @@ color: 797979
 flammability: 1.33
 radioactivity: 0.2
 cost: 1
+research: {
+  parent: lead
+  requirements: [
+    {
+      item: lead
+      amount: 10000
+    }
+    {
+      item: copper
+      amount: 10000
+    }
+  ]
+}
