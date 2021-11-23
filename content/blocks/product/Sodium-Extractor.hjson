@@ -1,6 +1,6 @@
-type: GenericCrafter
+//type: GenericCrafter
 name: Sodium Extractor
-itemCapacity: 5
+itemCapacity: 10
 liquidCapacity: 160
 health: 600
 size: 2
