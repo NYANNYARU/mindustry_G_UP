@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Sodium Extractor"
+name: Sodium Extractor
 itemCapacity: 5
 liquidCapacity: 160
 health: 600
@@ -25,6 +25,6 @@ requirements: [
 ]
 category: crafting
 research: graphite-press
-loopSound: machine
-loopSoundVolume: 1
+idleSound: machine
+idleSoundVolume: 1
 outputItem: Sodium/1
