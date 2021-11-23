@@ -14,7 +14,7 @@ consumes: {
   power: 1.25
   liquid: {
     liquid: water
-    amount: 0.53333333333333333333333333
+    amount: 0.53
   }
 }
 requirements: [
@@ -22,7 +22,6 @@ requirements: [
   lead/200
   graphite/50
   metaglass/100
-  
 ]
 category: crafting
 research: graphite-press
