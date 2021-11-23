@@ -1,4 +1,4 @@
-type: material
+name: Sodium Battery
 color: aaaaaa
 charge: 2
 explosiveness: 0.20
