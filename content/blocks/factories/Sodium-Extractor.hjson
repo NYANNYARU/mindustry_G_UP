@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Sodium Extractor
+name: "Sodium Extractor"
 itemCapacity: 5
 liquidCapacity: 160
 health: 600
