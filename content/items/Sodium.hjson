@@ -1,3 +1,5 @@
+name: Sodium
 color: 797979
-flammability: 0.75
-radioactivity: 0.1
+flammability: 1.33
+radioactivity: 0.2
+cost: 1
