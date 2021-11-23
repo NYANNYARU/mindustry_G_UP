@@ -4,7 +4,7 @@ charge: 2
 explosiveness: 0.20
 cost: 1
 research: {
-  parent: batteryLarge
+  parent: Sodium
   requirements: [
     {
       item: lead
