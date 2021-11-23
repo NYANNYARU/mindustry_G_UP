@@ -1,0 +1,23 @@
+type: material
+color: aaaaaa
+charge: 2
+explosiveness: 0.20
+radioactivity: 0.33
+cost: 1
+research: {
+  parent: batteryLarge
+  requirements: [
+    {
+      item: lead
+      amount: 3000
+    }
+    {
+      item: coal
+      amount: 1000
+    }
+    {
+      item: Sodium
+      amount: 1000
+    }
+  ]
+}
