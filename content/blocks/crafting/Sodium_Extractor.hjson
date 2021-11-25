@@ -20,11 +20,6 @@ consumes: {
   }
 }
 outputItem: Sodium/1
-outputLiquid: {
-  lquid: {
-    liquid: water
-    amount: 0.5
-  }
-}
+outputLiquid: water/31
 category: crafting
 research: graphite-press
