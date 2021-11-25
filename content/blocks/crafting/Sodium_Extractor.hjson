@@ -1,16 +1,17 @@
 type: GenericCrafter
-name: Sodium Extractor
-itemCapacity: 10
-liquidCapacity: 160
-health: 600
 size: 2
-solid: 1
 hasPower: true
 hasLiquids: true
 hasItems: false
+liquidCapacity: 160
+itemCapacity: 10
 craftTime: 60
-craftEffect: steam
-updateEffect: wet
+requirements: [
+  copper/200
+  lead/200
+  graphite/50
+  metaglass/100
+]
 consumes: {
   power: 1.25
   liquid: {
@@ -18,14 +19,6 @@ consumes: {
     amount: 0.533333333333
   }
 }
-requirements: [
-  copper/200
-  lead/200
-  graphite/50
-  metaglass/100
-]
-category: crafting
-research: graphite-press
 outputItem: Sodium/1
 outputLiquid: {
   lquid: {
@@ -33,3 +26,5 @@ outputLiquid: {
     amount: 0.5
   }
 }
+category: crafting
+research: graphite-press
