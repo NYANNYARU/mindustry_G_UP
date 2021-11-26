@@ -1,7 +1,6 @@
 type: GenericCrafter
 name: Sodium Extractor
 size: 2
-drawer: drawMixer
 hasPower: true
 hasLiquids: true
 hasItems: true
