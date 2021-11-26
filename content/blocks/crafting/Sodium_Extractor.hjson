@@ -15,7 +15,6 @@ requirements: [
 consumes: {
   power: 1.25
   liquid: 
-  }
 }
 outputItem: Sodium/1
 outputLiquid: water/31
