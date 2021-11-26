@@ -21,4 +21,4 @@ outputItem: Sodium/1
 outputLiquid: Waste_Water/31
 category: crafting
 research: graphite-press
-drawer = DrawLiquid
+drawer = DrawLiquid()
