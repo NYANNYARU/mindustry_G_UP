@@ -14,7 +14,7 @@ SExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, S
 	draw(){
 		Draw.rect(SExtractor.region, this.x, this.y);
 		Draw.color(water.color);
-		Draw.alpha(this.liquids.get(cryoLiquid) / SExtractor.liquidCapacity);
+		Draw.alpha(this.liquids.get(water) / SExtractor.liquidCapacity);
 		Draw.rect(Core.atlas.find(SExtractor.name + "-liquid"), this.x, this.y);
 		Draw.color();
 		Draw.rect(Core.atlas.find(SExtractor.name + "-top"), this.x, this.y);
