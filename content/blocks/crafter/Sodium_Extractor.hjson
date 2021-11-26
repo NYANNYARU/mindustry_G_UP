@@ -1,4 +1,4 @@
-type: Separator
+type: GenericCrafter
 name: Sodium Extractor
 size: 2
 hasPower: true
