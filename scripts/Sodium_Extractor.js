@@ -1,4 +1,4 @@
-const SExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {
+const gemDissipator = extendContent(GenericCrafter, "Sodium_Extractor", {
 	/* drawBase: function(tile){
         this.super$drawBase(tile);
         Draw.color(this.outputLiquid.liquid.color);
@@ -9,15 +9,15 @@ const SExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {
         Draw.reset();
 	}, */
 });
-const water = Liquids.water;
-SExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, SExtractor, {
+const cryoLiquid = Liquids.water;
+gemDissipator.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, gemDissipator, {
 	draw(){
-		Draw.rect(SExtractor.region, this.x, this.y);
-		Draw.color(water.color);
-		Draw.alpha(this.liquids.get(water) / SExtractor.liquidCapacity);
-		Draw.rect(Core.atlas.find(SExtractor.name + "-liquid"), this.x, this.y);
+		Draw.rect(gemDissipator.region, this.x, this.y);
+		Draw.color(cryoLiquid.color);
+		Draw.alpha(this.liquids.get(cryoLiquid) / gemDissipator.liquidCapacity);
+		Draw.rect(Core.atlas.find(gemDissipator.name + "-liquid"), this.x, this.y);
 		Draw.color();
-		Draw.rect(Core.atlas.find(SExtractor.name + "-top"), this.x, this.y);
+		Draw.rect(Core.atlas.find(gemDissipator.name + "-top"), this.x, this.y);
 		Draw.reset();
 	},	
 });
