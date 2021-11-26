@@ -1,4 +1,4 @@
-const NaExtractor = extendContent(GenericCrafter, "cryogem-dissipator");
+const NaExtractor = extendContent(GenericCrafter, "cryogem-dissipator",{});
 const water = Liquids.water;
 NaExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, NaExtractor, {
 	draw(){
