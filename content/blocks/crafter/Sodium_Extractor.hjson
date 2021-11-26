@@ -3,7 +3,7 @@ name: Sodium Extractor
 size: 2
 hasPower: true
 hasLiquids: true
-hasItems: false
+hasItems: true
 liquidCapacity: 160
 itemCapacity: 10
 craftTime: 60
