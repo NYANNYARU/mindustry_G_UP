@@ -1,6 +1,6 @@
 name: Waste Water
 alwaysUnlocked: true
-heatCapacity: 0
+heatCapacity: 100
 viscosity: 0
 temperature: 0
 color: 7291ee
