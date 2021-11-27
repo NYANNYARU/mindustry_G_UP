@@ -6,7 +6,7 @@ hasLiquids: true
 hasItems: true
 liquidCapacity: 160
 itemCapacity: 10
-craftTime: 30
+craftTime: 60
 updateEffect: wet
 buildCostMultiplier: 0.33
 requirements: [
@@ -20,6 +20,6 @@ consumes: {
   liquid: water/0.533333333333
 }
 outputItem: Sodium/1
-outputLiquid: Waste_Water/15
+outputLiquid: Waste_Water/30
 category: crafting
 research: graphite-press
