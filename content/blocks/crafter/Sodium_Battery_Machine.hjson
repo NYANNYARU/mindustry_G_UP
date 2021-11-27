@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Sodium Extractor
+name: SodiumBattery Machine
 size: 2
 hasPower: true
 hasLiquids: false
