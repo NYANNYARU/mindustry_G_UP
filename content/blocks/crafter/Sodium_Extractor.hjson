@@ -17,9 +17,9 @@ requirements: [
 ]
 consumes: {
   power: 1.25
-  liquid: water/1.066666666666
+  liquid: water/0.533333333333
 }
 outputItem: Sodium/1
-outputLiquid: Waste_Water/30
+outputLiquid: Waste_Water/15
 category: crafting
 research: graphite-press
