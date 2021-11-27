@@ -1,5 +1,5 @@
 name: Waste Water
-alwaysUnlocked: true
+//alwaysUnlocked: true
 heatCapacity: 0
 viscosity: 0
 temperature: 0
