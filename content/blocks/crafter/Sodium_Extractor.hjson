@@ -6,7 +6,8 @@ hasLiquids: true
 hasItems: true
 liquidCapacity: 160
 itemCapacity: 10
-craftTime: 60
+craftTime: 45
+updateEffect: wet
 requirements: [
   copper/200
   lead/200
@@ -21,6 +22,3 @@ outputItem: Sodium/1
 outputLiquid: Waste_Water/31
 category: crafting
 research: graphite-press
-drawer: {
-  type: drawLiquid
-}
