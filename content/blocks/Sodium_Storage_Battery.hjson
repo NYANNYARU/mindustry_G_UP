@@ -1,0 +1,15 @@
+type: Battery
+name: Sodium StorageBattery
+size: 1
+buildCostMultiplier: 2
+consumes: {
+  powerBuffered: 25000
+}
+requirements: [
+  titanium/20
+  lead/40
+  silicon/20
+  Sodium/10
+]
+category: power
+research: battery-large
