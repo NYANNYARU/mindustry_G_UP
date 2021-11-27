@@ -9,6 +9,7 @@ const NaExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {
         Draw.reset();
 	}, */
 });
+
 const water = Liquids.water;
 const Wwater = Liquids.mindustry_g_up-Waste_Water;
 NaExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, NaExtractor, {
@@ -17,11 +18,11 @@ NaExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, 
 		Draw.color(water.color);
 		Draw.alpha(this.liquids.get(water) / NaExtractor.liquidCapacity);
 		Draw.rect(Core.atlas.find(NaExtractor.name + "-liquid"), this.x, this.y);
-		Draw.color(Wwater.color);
+		/*Draw.color(Wwater.color);
 		Draw.alpha(this.liquids.get(Wwater) / NaExtractor.liquidCapacity);
-		Draw.rect(Core.atlas.find(NaExtractor.name + "-liquid2"), this.x, this.y);
+		Draw.rect(Core.atlas.find(NaExtractor.name + "-liquid2"), this.x, this.y);*/
 		Draw.color();
 		Draw.rect(Core.atlas.find(NaExtractor.name + "-top"), this.x, this.y);
 		Draw.reset();
-	},	
+	},
 });
