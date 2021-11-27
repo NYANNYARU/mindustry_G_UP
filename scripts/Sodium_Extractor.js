@@ -1,4 +1,4 @@
-const NaExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {
+const NaExtractor = extendContent(GenericCrafter, Sodium_Extractor, {
 	/* drawBase: function(tile){
         this.super$drawBase(tile);
         Draw.color(this.outputLiquid.liquid.color);
