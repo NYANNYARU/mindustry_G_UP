@@ -27,6 +27,4 @@ consumes: {
 outputItem: Sodium_Battery/1
 category: crafting
 research: Sodium_Extractor
-drawer: {
-  type:DrawGlow
-}
+drawer: drawSmelter
