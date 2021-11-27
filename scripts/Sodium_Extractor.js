@@ -11,7 +11,7 @@ const NaExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {
 });
 
 const water = Liquids.water;
-const Wwater = "Waste_Water";
+const Wwater = Liquids."Waste_Water";
 NaExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, NaExtractor, {
 	draw(){
 		Draw.rect(NaExtractor.region, this.x, this.y);
