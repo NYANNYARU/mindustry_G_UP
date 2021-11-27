@@ -16,11 +16,13 @@ requirements: [
 ]
 consumes: {
   power: 1.5
-  item: [
-    titanium/2
-    coal/1
-    Sodium/1
-  ]
+  item: {
+    items: [
+      titanium/2
+      coal/1
+      Sodium/1
+    ]
+  }
 }
 outputItem: Sodium_battery/1
 category: crafting
