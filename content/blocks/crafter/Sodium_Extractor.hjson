@@ -8,6 +8,7 @@ liquidCapacity: 160
 itemCapacity: 10
 craftTime: 45
 updateEffect: wet
+buildCostMultiplier: 0.33
 requirements: [
   copper/200
   lead/200
