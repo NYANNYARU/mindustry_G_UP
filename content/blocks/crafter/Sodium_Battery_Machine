@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Sodium Extractor
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 10
+craftTime: 60
+updateEffect: smelt
+buildCostMultiplier: 0.5
+requirements: [
+  copper/200
+  lead/200
+  graphite/50
+  Sodium/25
+]
+consumes: {
+  power: 1.5
+  item: {
+      titanium/2
+      coal/1
+      Sodium/1
+  }
+}
+outputItem: Sodium_battery/1
+category: crafting
+research: Sodium_Extractor
