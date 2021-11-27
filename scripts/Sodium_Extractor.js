@@ -18,7 +18,7 @@ NaExtractor.buildType = () => extendContent(GenericCrafter.GenericCrafterBuild, 
 		Draw.color(water.color);
 		Draw.alpha(this.liquids.get(water) / NaExtractor.liquidCapacity);
 		Draw.rect(Core.atlas.find(NaExtractor.name + "-liquid"), this.x, this.y);
-		Draw.color(WWater.color);
+		Draw.color(Wwater.color);
 		Draw.alpha(this.liquids.get(Wwater) / NaExtractor.liquidCapacity);
 		Draw.rect(Core.atlas.find(NaExtractor.name + "-liquid2"), this.x, this.y);
 		Draw.color();
