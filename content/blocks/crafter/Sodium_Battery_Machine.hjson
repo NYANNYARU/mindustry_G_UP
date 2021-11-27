@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: SodiumBattery Machine
 size: 2
 hasPower: true
@@ -27,6 +27,3 @@ consumes: {
 outputItem: Sodium_Battery/1
 category: crafting
 research: Sodium_Extractor
-drawer: {
-  type: DrawSmelter
-}
