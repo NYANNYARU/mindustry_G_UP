@@ -22,15 +22,11 @@ consumes: {
   }
 }
 results: {
-  items: {
-    items: [
-      Iron/1
-      Iron/1
-      Iron/1
-      Iron/1
-      Gold/1
-    ]
-  }
+  Iron/1
+  Iron/1
+  Iron/1
+  Iron/1
+  Gold/1
 }
 category: crafting
 research: kiln
