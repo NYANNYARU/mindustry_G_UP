@@ -6,7 +6,7 @@ hasLiquids: false
 hasItems: true
 itemCapacity: 10
 craftTime: 60
-updateEffect: smelt
+craftEffect: smeltsmoke
 buildCostMultiplier: 0.5
 requirements: [
   copper/200
