@@ -1,0 +1,6 @@
+name: Iron
+color: DDDDDD
+cost: 1
+research: {
+  parent: phase-fabric
+}
