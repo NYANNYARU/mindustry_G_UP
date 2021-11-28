@@ -1,0 +1,6 @@
+name: Gold
+color: FFFF00
+cost: 2
+research: {
+  parent: Iron
+}
