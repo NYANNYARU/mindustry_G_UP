@@ -9,7 +9,7 @@ requirements: [
   titanium/20
   lead/40
   silicon/20
-  Sodium/10
+  Sodium_Battery/10
 ]
 category: power
 research: battery-large
