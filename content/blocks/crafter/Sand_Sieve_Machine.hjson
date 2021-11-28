@@ -5,6 +5,7 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 itemCapacity: 10
+spinnerSpeed: 16
 craftTime: 30
 buildCostMultiplier: 0.5
 requirements: [
