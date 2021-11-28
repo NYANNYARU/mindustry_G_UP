@@ -1,0 +1,29 @@
+type: Separator
+name: SandSieve Machine
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 10
+craftTime: 30
+updateEffect: smelt
+buildCostMultiplier: 0.5
+requirements: [
+  copper/200
+  lead/200
+  graphite/50
+  phase-fabric/10
+]
+consumes: {
+  power: 2
+  items: {
+    items: [
+      titanium/2
+      coal/1
+      Sodium/1
+    ]
+  }
+}
+outputItem: Sodium_Battery/1
+category: crafting
+research: Sodium_Extractor
