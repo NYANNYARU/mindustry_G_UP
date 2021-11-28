@@ -21,7 +21,7 @@ consumes: {
     ]
   }
 }
-result: {
+results: {
   items: [
     Iron/1
     Iron/1
