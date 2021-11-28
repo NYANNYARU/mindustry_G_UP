@@ -2,7 +2,7 @@ type: Separator
 name: SandSieve Machine
 size: 3
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 hasItems: true
 itemCapacity: 30
 spinnerSpeed: 16
