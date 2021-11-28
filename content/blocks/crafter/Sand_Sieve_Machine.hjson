@@ -24,7 +24,7 @@ consumes: {
 }
 results: [
   Iron/5
-  Gold/1
+  Gold/2
 ]
 category: crafting
 research: kiln
