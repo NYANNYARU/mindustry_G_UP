@@ -23,7 +23,7 @@ consumes: {
   }
 }
 results: [
-  Iron/2
+  Iron/5
   Gold/1
 ]
 category: crafting
