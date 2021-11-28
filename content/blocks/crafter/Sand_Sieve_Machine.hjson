@@ -4,7 +4,7 @@ size: 3
 hasPower: true
 hasLiquids: true
 hasItems: true
-itemCapacity: 10
+itemCapacity: 30
 spinnerSpeed: 16
 craftTime: 30
 buildCostMultiplier: 0.5
