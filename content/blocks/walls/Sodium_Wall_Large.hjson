@@ -1,7 +1,7 @@
 name: Sodium Wall
 type: Wall
 health: 2000
-size: 1
+size: 2
 buildCostMultiplier: 1
 category: defense
 requirements: [
