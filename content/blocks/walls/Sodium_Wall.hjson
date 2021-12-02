@@ -1,11 +1,10 @@
-name: Iron Wall
+name: Sodium Wall
 type: Wall
-health: 1000
+health: 500
 size: 1
-chanceDeflect: 3.33
-buildCostMultiplier: 3.75
+buildCostMultiplier: 1
 category: defense
 requirements: [
-    Iron/8
+    Sodium/5
 ]
-research: surge-wall
+research: titanium-wall
