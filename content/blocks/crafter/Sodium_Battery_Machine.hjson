@@ -7,7 +7,7 @@ hasItems: true
 itemCapacity: 10
 craftTime: 60
 craftEffect: smeltsmoke
-buildCostMultiplier: 0.3816793893129771
+buildCostMultiplier: 0.19083969465648856
 requirements: [
   copper/200
   lead/200
