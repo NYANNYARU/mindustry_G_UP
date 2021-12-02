@@ -2,7 +2,7 @@ name: Gold Wall
 type: Wall
 health: 5000
 size: 2
-chanceDeflect: 1
+chanceDeflect: 2.5
 buildCostMultiplier: 3.75
 category: defense
 requirements: [
