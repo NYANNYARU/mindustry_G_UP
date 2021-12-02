@@ -1,0 +1,10 @@
+name: Gold Wall
+type: Wall
+health: 5000
+size: 2
+chanceDeflect: 1
+buildCostMultiplier: 3.75
+category: defense
+requirements: [
+    Glod/32
+]
