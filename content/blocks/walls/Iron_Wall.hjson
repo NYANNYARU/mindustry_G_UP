@@ -2,7 +2,7 @@ name: Iron Wall
 type: Wall
 health: 1000
 size: 1
-chanceDeflect: 3.33
+chanceDeflect: 5
 buildCostMultiplier: 3.75
 category: defense
 requirements: [
