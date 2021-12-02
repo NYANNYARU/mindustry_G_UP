@@ -6,5 +6,5 @@ chanceDeflect: 1
 buildCostMultiplier: 3.75
 category: defense
 requirements: [
-    Glod/32
+    Gold/32
 ]
