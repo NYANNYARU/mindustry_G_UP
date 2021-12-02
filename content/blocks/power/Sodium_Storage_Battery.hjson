@@ -1,7 +1,7 @@
 type: Battery
 name: Sodium StorageBattery
 size: 1
-buildCostMultiplier: 2
+buildCostMultiplier: 0.3252032520325204
 consumes: {
   powerBuffered: 25000
 }
