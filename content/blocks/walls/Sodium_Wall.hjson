@@ -1,1 +1,11 @@
-
+name: Iron Wall
+type: Wall
+health: 1000
+size: 1
+chanceDeflect: 3.33
+buildCostMultiplier: 3.75
+category: defense
+requirements: [
+    Iron/8
+]
+research: surge-wall
