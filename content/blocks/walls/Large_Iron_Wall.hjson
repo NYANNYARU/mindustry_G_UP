@@ -3,7 +3,7 @@ type: Wall
 health: 4000
 size: 2
 chanceDeflect: 3.33
-buildCostMultiplier: 15
+buildCostMultiplier: 3.75
 category: defense
 requirements: [
     Iron/32
