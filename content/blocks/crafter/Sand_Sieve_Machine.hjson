@@ -7,7 +7,7 @@ hasItems: true
 itemCapacity: 30
 spinnerSpeed: 2
 craftTime: 30
-buildCostMultiplier: 0.1321003963011889
+buildCostMultiplier: 0.19815059445178335
 requirements: [
   copper/200
   lead/200
