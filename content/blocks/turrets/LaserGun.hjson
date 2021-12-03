@@ -17,7 +17,7 @@ requirements: [
   thorium/200
   silicon/250
   Iron/150
-  //Diamond/100
+  Diamond/100
   Sodium_Battery/300
 ]
 category: turret
