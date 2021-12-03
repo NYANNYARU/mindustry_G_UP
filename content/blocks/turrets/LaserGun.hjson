@@ -16,7 +16,7 @@ requirements: [
   graphite/40
   titanium/100
   silicon/130
-  Sodium_Battery
+  Sodium_Battery/50
 ]
 category: turret
 research: parallax
