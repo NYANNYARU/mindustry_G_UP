@@ -1,1 +1,6 @@
-
+name: Diamond
+color: FF00FF
+cost: 3
+research: {
+  parent: Diamond
+}
