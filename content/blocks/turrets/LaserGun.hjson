@@ -10,7 +10,13 @@ health: 800
 rotateSpeed: 20
 targetGround: true
 consumes: {
-    power: 6
+  power: 6
 }
+requirements: [
+  graphite/40
+  titanium/100
+  silicon/130
+  Sodium_Battery
+]
 category: turret
 research: parallax
