@@ -8,5 +8,5 @@ damage: 1
 health: 800
 rotateSpeed: 20
 consumes: {
-    powerCond: 6
+    power: 6
 }
