@@ -1,4 +1,5 @@
 type: TractorBeamTurret
+name: Laser Gun
 hasPower: true
 size: 2
 force: 12
@@ -11,3 +12,5 @@ targetGround: true
 consumes: {
     power: 6
 }
+category: turret
+research: parallax
