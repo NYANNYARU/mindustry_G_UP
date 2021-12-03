@@ -1,5 +1,5 @@
 name: Diamond
-color: FF00FF
+color: 00FFFF
 cost: 3
 research: {
   parent: Diamond
