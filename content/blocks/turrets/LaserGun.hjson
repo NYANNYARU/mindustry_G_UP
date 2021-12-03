@@ -1,0 +1,12 @@
+type: TractorBeamTurret
+hasPower: true
+size: 2
+force: 12
+scaledForce: 6
+range: 222
+damage: 1
+health: 800
+rotateSpeed: 20
+consumes: {
+    powerCond: 6
+}
