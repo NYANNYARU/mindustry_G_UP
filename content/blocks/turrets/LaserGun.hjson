@@ -3,7 +3,7 @@ name: Laser Gun
 hasPower: true
 size: 2
 force: 0
-scaledForce: 0
+scaledForce: 32
 range: 200
 damage: 3.33
 health: 800
