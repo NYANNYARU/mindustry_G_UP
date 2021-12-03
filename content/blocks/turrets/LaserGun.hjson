@@ -2,12 +2,12 @@ type: TractorBeamTurret
 name: Laser Gun
 hasPower: true
 size: 2
-force: 0
-scaledForce: 32
+force: 32
+scaledForce: 0
 range: 200
 damage: 3.33
 health: 800
-rotateSpeed: 5
+rotateSpeed: 10
 targetGround: true
 consumes: {
   power: 6
