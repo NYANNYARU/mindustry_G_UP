@@ -1,0 +1,12 @@
+name: Large Diamond Wall
+type: Wall
+health: 8000
+size: 2
+chanceDeflect: 15
+buildCostMultiplier: 3.75
+category: defense
+requirements: [
+    Diamond/32
+]
+research: Diamond_Wall
+flashHit: true
