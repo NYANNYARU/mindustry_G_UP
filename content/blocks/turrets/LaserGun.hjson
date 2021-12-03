@@ -7,6 +7,7 @@ range: 222
 damage: 1
 health: 800
 rotateSpeed: 20
+targetGround: true
 consumes: {
     power: 6
 }
