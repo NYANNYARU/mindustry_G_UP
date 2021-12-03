@@ -1,0 +1,11 @@
+name: Diamond Wall
+type: Wall
+health: 2000
+size: 1
+chanceDeflect: 15
+buildCostMultiplier: 3.75
+category: defense
+requirements: [
+    Diamond/8
+]
+research: Gold_Wall
