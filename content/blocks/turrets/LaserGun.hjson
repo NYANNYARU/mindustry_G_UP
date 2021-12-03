@@ -5,20 +5,20 @@ size: 2
 force: 0
 scaledForce: 0
 range: 200
-damage: 3
+damage: 5
 health: 800
 rotateSpeed: 10
 targetGround: true
 consumes: {
-  power: 6
+  power: 6.666666666666
 }
 requirements: [
-  graphite/40
-  thorium/100
-  silicon/130
-  Iron/100
-  //Diamond/50
-  Sodium_Battery/100
+  graphite/150
+  thorium/200
+  silicon/250
+  Iron/150
+  //Diamond/100
+  Sodium_Battery/300
 ]
 category: turret
 research: parallax
