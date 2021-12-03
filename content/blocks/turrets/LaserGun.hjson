@@ -5,7 +5,7 @@ size: 2
 force: 0
 scaledForce: 0
 range: 200
-damage: 2
+damage: 3.33
 health: 800
 rotateSpeed: 5
 targetGround: true
@@ -14,7 +14,7 @@ consumes: {
 }
 requirements: [
   graphite/40
-  titanium/100
+  thorium/100
   silicon/130
   Sodium_Battery/50
 ]
