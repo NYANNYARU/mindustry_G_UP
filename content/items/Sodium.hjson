@@ -4,14 +4,14 @@ flammability: 1.33
 radioactivity: 0.2
 cost: 1
 research: {
-  parent: lead
+  parent: water
   requirements: [
     {
-      item: water
+      item: copper
       amount: 10000
     }
     {
-      item: copper
+      item: lead
       amount: 10000
     }
   ]
