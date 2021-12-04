@@ -2,12 +2,12 @@ type: GenericSmelter
 name: HPHT Synthesizer
 size: 4
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 hasItems: true
 itemCapacity: 40
 craftTime: 180
 craftEffect: bigShockwave
-buildCostMultiplier: 1
+buildCostMultiplier: 2
 requirements: [
   copper/500
   Iron/800
@@ -16,7 +16,7 @@ requirements: [
   Sodium_Battery/300
 ]
 consumes: {
-  power: 1.5
+  power: 26.66666666666666666666
   items: {
     items: [
       graphite/20
@@ -24,6 +24,6 @@ consumes: {
   }
   liquid: slag/0.5
 }
-outputItem: Sodium_Battery/1
+outputItem: Diamond/2
 category: crafting
-research: Sodium_Extractor
+research: Sand_Sieve_Machine
