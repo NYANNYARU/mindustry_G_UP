@@ -26,12 +26,8 @@ hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 		Draw.alpha(this.liquids.get(slag) / hpht.liquidCapacity);
 		Draw.rect(Core.atlas.find(hpht.name + "-heat2"), this.x, this.y);
 		Draw.reset();
-		if(this.liquids.get(slag) == hpht.liquidCapacity){
-		    this.outputItem = new ItemStack(dia, 2);
-		    this.craftEffect = "bigShockwave";
-		}else{
-		    this.outputItem = new ItemStack(dia, 0);
-		    this.craftEffect = "none";
+		if(this.liquids.get(slag) != hpht.liquidCapacity){
+		    this.progress = 0;
 		}
 	},
 });
