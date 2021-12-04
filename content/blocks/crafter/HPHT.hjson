@@ -14,6 +14,7 @@ requirements: [
   silicon/450
   graphite/250
   Sodium_Battery/300
+  metaglass/150
 ]
 consumes: {
   power: 26.66666666666666666666
