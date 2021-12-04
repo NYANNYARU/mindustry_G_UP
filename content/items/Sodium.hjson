@@ -3,7 +3,8 @@ color: 797979
 flammability: 1.33
 radioactivity: 0.2
 cost: 1
-research: {
+nodeProduce: Sodium
+/*research: {
   parent: lead
   requirements: [
     {
@@ -16,3 +17,4 @@ research: {
     }
   ]
 }
+*/
