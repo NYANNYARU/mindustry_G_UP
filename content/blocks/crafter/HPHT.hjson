@@ -22,7 +22,7 @@ consumes: {
       graphite/20
     ]
   }
-  liquid: 
+  liquid: slag/
 }
 outputItem: Sodium_Battery/1
 category: crafting
