@@ -11,14 +11,14 @@ const hpht = extendContent(GenericSmelter, "HPHT", {
 });
 
 const slag = Liquids.slag;
-const dia = new Item("Diamond");
+const blast = new Item("blast-compound")
 hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 	draw(){
 		Draw.rect(hpht.region, this.x, this.y);
 		Draw.color(slag.color);
 		Draw.alpha(this.liquids.get(slag) / hpht.liquidCapacity);
 		Draw.rect(Core.atlas.find(hpht.name + "-liquid"), this.x, this.y);
-		Draw.color(255,64,0);
+		Draw.color(blast.color);
 		Draw.alpha(this.liquids.get(slag) / hpht.liquidCapacity);
     		Draw.rect(Core.atlas.find(hpht.name + "-heat"), this.x, this.y);
 		Draw.color();
