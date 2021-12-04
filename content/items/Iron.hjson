@@ -2,5 +2,5 @@ name: Iron
 color: DDDDDD
 cost: 1.5
 research: {
-  parent: 
+  parent: sand
 }
