@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: HPHT Synthesizer
-size: 4
+size: 5
 hasPower: true
 hasLiquids: true
 hasItems: true
