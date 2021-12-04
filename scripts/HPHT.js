@@ -11,7 +11,7 @@ const hpht = extendContent(GenericSmelter, "HPHT", {
 });
 
 const slag = Liquids.slag;
-hpht.buildType = () => extendContent(GenericSmelter.GenericSmelterBuild, hpht, {
+hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 	draw(){
 		Draw.rect(hpht.region, this.x, this.y);
 		Draw.color(slag.color);
