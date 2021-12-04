@@ -24,7 +24,7 @@ consumes: {
       graphite/20
     ]
   }
-  liquid: slag/0.66666666666666
+  liquid: slag/0.6
 }
 outputItem: Diamond/2
 category: crafting
