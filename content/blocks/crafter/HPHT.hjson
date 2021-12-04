@@ -7,7 +7,7 @@ hasItems: true
 itemCapacity: 40
 craftTime: 300
 craftEffect: bigShockwave
-buildCostMultiplier: 2
+buildCostMultiplier: 0.75
 requirements: [
   copper/500
   Iron/800
