@@ -26,9 +26,8 @@ hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 		Draw.rect(Core.atlas.find(hpht.name + "-heat2"), this.x, this.y);
 		Draw.reset();
 		if(this.liquids.get(slag) == hpht.liquidCapacity){
-		    this.update=true;
+		    this.outputItem;
 		}else{
-		    this.update=false;
 		}
 	},
 });
