@@ -2,5 +2,5 @@ name: Diamond
 color: 00FFFF
 cost: 3
 research: {
-  parent: Diamond
+  parent: Gold
 }
