@@ -11,6 +11,7 @@ const hpht = extendContent(GenericSmelter, "HPHT", {
 });
 
 const slag = Liquids.slag;
+const dia = new Item("Diamond");
 hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 	draw(){
 		Draw.rect(hpht.region, this.x, this.y);
@@ -26,8 +27,11 @@ hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 		Draw.rect(Core.atlas.find(hpht.name + "-heat2"), this.x, this.y);
 		Draw.reset();
 		if(this.liquids.get(slag) == hpht.liquidCapacity){
-		    this.outputItem;
+		    this.outputItem = new ItemStack(dia, 2);
+		    this.craftEffect: bigShockwave;
 		}else{
+		    this.outputItem = new ItemStack(dia, 0);
+		    this.craftEffect: none;
 		}
 	},
 });
