@@ -5,7 +5,7 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 itemCapacity: 40
-craftTime: 180
+craftTime: 300
 craftEffect: bigShockwave
 buildCostMultiplier: 2
 requirements: [
