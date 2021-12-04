@@ -1,4 +1,4 @@
-type: GenericSmelter
+//type: GenericSmelter
 name: HPHT Synthesizer
 size: 5
 hasPower: true
