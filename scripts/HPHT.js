@@ -17,7 +17,7 @@ hpht.buildType = () => extendContent(GenericSmelter.SmelterBuild, hpht, {
 		Draw.color(slag.color);
 		Draw.alpha(this.liquids.get(slag) / hpht.liquidCapacity);
 		Draw.rect(Core.atlas.find(hpht.name + "-liquid"), this.x, this.y);
-		Draw.color(255);
+		Draw.color(1,0,0,1);
 		Draw.alpha(this.liquids.get(slag) / hpht.liquidCapacity);
     		Draw.rect(Core.atlas.find(hpht.name + "-heat"), this.x, this.y);
 		Draw.color();
