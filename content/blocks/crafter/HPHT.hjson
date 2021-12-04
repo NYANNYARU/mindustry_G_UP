@@ -4,10 +4,11 @@ size: 5
 hasPower: true
 hasLiquids: true
 hasItems: true
+liquidCapacity: 1000
 itemCapacity: 40
 craftTime: 300
 craftEffect: bigShockwave
-buildCostMultiplier: 0.75
+buildCostMultiplier: 0.5
 requirements: [
   copper/500
   Iron/800
@@ -23,7 +24,7 @@ consumes: {
       graphite/20
     ]
   }
-  liquid: slag/0.75
+  liquid: slag/2.5
 }
 outputItem: Diamond/2
 category: crafting
