@@ -3,7 +3,7 @@ color: 797979
 flammability: 1.33
 radioactivity: 0.2
 cost: 1
-/*research: {
+research: {
   parent: lead
   requirements: [
     {
@@ -16,4 +16,3 @@ cost: 1
     }
   ]
 }
-*/
