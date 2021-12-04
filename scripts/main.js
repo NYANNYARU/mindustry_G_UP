@@ -3,3 +3,4 @@ new Item("Sodium");
 new Item("Sodium_Battery");
 // Blocks
 require("Sodium_Extractor")
+require("HPHT")
