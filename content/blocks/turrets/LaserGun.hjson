@@ -2,10 +2,10 @@ type: TractorBeamTurret
 name: Laser Gun
 hasPower: true
 size: 2
-force: 0
-scaledForce: 0
+force: -5
+scaledForce: -5
 range: 200
-damage: 8
+damage: 10
 health: 800
 rotateSpeed: 25
 targetGround: true
@@ -17,7 +17,7 @@ requirements: [
   thorium/200
   silicon/250
   Iron/150
-  Diamond/100
+  Diamond/150
   Sodium_Battery/300
 ]
 category: turret
