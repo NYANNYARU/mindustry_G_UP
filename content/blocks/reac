@@ -1,0 +1,22 @@
+explosionRadius = 50;
+explosionDamage = 5000;
+type: NuclearReactor
+name: reactor
+itemCapacity: 30
+size: 3
+heating: 0.02
+hasLiquids: true
+powerProduction: 60
+itemDuration: 200
+consumes: {
+	item: "thorium"
+	liquid: water/0.02
+}
+requirements: [
+	titanium/100
+	phase-fabric/250
+	silicon/150
+	surge-alloy/40
+]
+category: "power"
+research: "copper"
