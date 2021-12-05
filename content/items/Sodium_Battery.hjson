@@ -1,7 +1,6 @@
 name: Sodium Battery
 color: aaaaaa
-charge: 2
-explosiveness: 0.20
+charge: 3
 cost: 1
 research: {
   parent: Sodium
