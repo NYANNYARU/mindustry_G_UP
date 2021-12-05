@@ -5,7 +5,7 @@ size: 2
 force: 0
 scaledForce: 0
 range: 200
-damage: 5
+damage: 8
 health: 800
 rotateSpeed: 25
 targetGround: true
