@@ -4,7 +4,7 @@ hasPower: true
 size: 2
 force: 0
 scaledForce: 0
-range: 200
+range: 240
 damage: 10
 health: 800
 rotateSpeed: 25
