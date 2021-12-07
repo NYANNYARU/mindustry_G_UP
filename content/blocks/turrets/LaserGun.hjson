@@ -6,7 +6,7 @@ force: 0
 scaledForce: 0
 range: 240
 damage: 10
-health: 800
+health: 500
 rotateSpeed: 25
 targetGround: true
 consumes: {
