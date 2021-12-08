@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Purple Shadow
 size: 4
-range: 750
+range: 640
 ammoPerShot: 3
 maxAmmo: 50
 rotateSpeed: 5
