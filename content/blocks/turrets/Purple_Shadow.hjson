@@ -44,6 +44,7 @@ requirements: [
   surgeAlloy/600
   plastanium/400
   silicon/1200
-  Sodium_Battery
+  Sodium_Battery/1200
   Diamond/600
 ]
+research: foreshadow
