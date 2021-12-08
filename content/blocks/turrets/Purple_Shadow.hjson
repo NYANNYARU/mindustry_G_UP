@@ -43,7 +43,7 @@ category: turret
 requirements: [
   copper/2000
   metaglass/1200
-  surgeAlloy/600
+  surge-alloy/600
   plastanium/400
   silicon/1200
   Sodium_Battery/1200
