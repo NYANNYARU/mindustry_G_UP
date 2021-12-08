@@ -1,4 +1,4 @@
-type: ItemTurret
+//type: ItemTurret
 name: Purple Shadow
 size: 4
 range: 640
@@ -14,9 +14,6 @@ shootShake: 4
 shots: 1
 shootCone: 2
 shootSound: railgun_S
-/*unitSort: {
-  UnitSorts: strongest
-}*/
 coolantMultiplier: 0.5
 health: 3000
 coolantUsage: 1
