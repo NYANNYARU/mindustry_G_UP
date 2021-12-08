@@ -1,2 +1,2 @@
-const PS = new ItemTurret("Purple_Shadow");
+const PS = new Block("Purple_Shadow");
 PS.unitSort = UnitSorts.strongest;
