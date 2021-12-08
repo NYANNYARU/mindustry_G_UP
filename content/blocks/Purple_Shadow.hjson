@@ -1,0 +1,32 @@
+type: ItemTurret
+name: Purple Shadow
+size: 4
+range: 750
+ammoPerShot: 3
+maxAmmo: 50
+rotateSpeed: 5
+reloadTime: 150
+ammoUseEffect: casing3Double
+recoilAmount: 5
+restitution: 0.009
+cooldown: 0.009
+shootShake: 4
+shots: 1
+shootCone: 2
+shootSound: railgun_S
+ammoTypes: {
+  surge-alloy: {
+    type: PointBulletType
+    shootEffect: instShoot
+    hitEffect: instHit
+    smokeEffect: smokeCloud
+    trailEffect: instTrail
+    despawnEffect: instBomb
+    trailSpacing: 20
+    damage: 2000
+    buildingDamageMultiplier: 0.3
+    speed: 750
+    hitShake: 6
+    ammoMultiplier: 1
+  }
+}
