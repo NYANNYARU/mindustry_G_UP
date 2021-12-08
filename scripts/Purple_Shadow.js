@@ -1,2 +1,1 @@
-const PS = new Block("Purple_Shadow");
-PS.unitSort = UnitSorts.strongest;
+Purple_Shadow.unitSort = UnitSorts.strongest;
