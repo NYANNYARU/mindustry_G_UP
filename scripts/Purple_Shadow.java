@@ -1,7 +1,7 @@
 foreshadow = new ItemTurret("foreshadow"){{
             float brange = range = 500f;
 
-            requirements(Category.turret, with(Items.copper, 1000, Items.metaglass, 600, Items.surgeAlloy, 300, Items.plastanium, 200, Items.silicon, 600));
+            requirements(Category.turret, with(Items.copper, 2000, Items.metaglass, 1200, Items.surgeAlloy, 600, Items.plastanium, 400, Items.silicon, 1200));
             ammo(
                 Items.surgeAlloy, new PointBulletType(){{
                     shootEffect = Fx.instShoot;
@@ -30,13 +30,13 @@ foreshadow = new ItemTurret("foreshadow"){{
             shots = 1;
             size = 4;
             shootCone = 2f;
-            shootSound = Sounds.railgun;
+            shootSound = Sounds.railgun_S;
             unitSort = UnitSorts.strongest;
 
             coolantMultiplier = 0.4f;
 
-            health = 150 * size * size;
+            health = 3000;
             coolantUsage = 1f;
 
-            consumes.powerCond(10f, TurretBuild::isActive);
+            consumes.powerCond(20f, TurretBuild::isActive);
         }};
