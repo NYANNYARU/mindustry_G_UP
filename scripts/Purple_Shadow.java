@@ -1,7 +1,7 @@
-foreshadow = new ItemTurret("foreshadow"){{
-            float brange = range = 500f;
+/*Purple_Shadow = */new ItemTurret("Purple Shadow"){{
+            float brange = range = 640f;
 
-            requirements(Category.turret, with(Items.copper, 2000, Items.metaglass, 1200, Items.surgeAlloy, 600, Items.plastanium, 400, Items.silicon, 1200));
+            requirements(Category.turret, with(Items.copper, 2000, Items.metaglass, 1200, Items.surgeAlloy, 600, Items.plastanium, 400, Items.silicon, 1200, Items.Sodium_Battery, 1500, Items.Diamond, 600));
             ammo(
                 Items.surgeAlloy, new PointBulletType(){{
                     shootEffect = Fx.instShoot;
@@ -10,17 +10,17 @@ foreshadow = new ItemTurret("foreshadow"){{
                     trailEffect = Fx.instTrail;
                     despawnEffect = Fx.instBomb;
                     trailSpacing = 20f;
-                    damage = 1350;
-                    buildingDamageMultiplier = 0.2f;
+                    damage = 2000;
+                    buildingDamageMultiplier = 0.5f;
                     speed = brange;
                     hitShake = 6f;
                     ammoMultiplier = 1f;
                 }}
             );
-
-            maxAmmo = 40;
-            ammoPerShot = 5;
-            rotateSpeed = 2f;
+            buildCostMultiplier= 0.45;
+            maxAmmo = 50;
+            ammoPerShot = 4;
+            rotateSpeed = 5f;
             reloadTime = 200f;
             ammoUseEffect = Fx.casing3Double;
             recoilAmount = 5f;
