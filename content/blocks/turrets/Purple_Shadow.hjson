@@ -1,4 +1,4 @@
-type: ItemTurret
+//type: ItemTurret
 name: Purple Shadow
 size: 4
 range: 640
