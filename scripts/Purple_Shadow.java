@@ -1,4 +1,4 @@
-/*Purple_Shadow = */new ItemTurret("Purple Shadow"){{
+/*Purple_Shadow = */new ItemTurret("Purple_Shadow"){{
             float brange = range = 640f;
 
             requirements(Category.turret, with(Items.copper, 2000, Items.metaglass, 1200, Items.surgeAlloy, 600, Items.plastanium, 400, Items.silicon, 1200, Items.Sodium_Battery, 1500, Items.Diamond, 600));
@@ -17,6 +17,7 @@
                     ammoMultiplier = 1f;
                 }}
             );
+            research = foreshadow;
             buildCostMultiplier= 0.45;
             maxAmmo = 50;
             ammoPerShot = 4;
