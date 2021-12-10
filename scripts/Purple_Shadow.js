@@ -7,4 +7,4 @@ const PS = extendContent(ItemTurret, "Purple_Shadow", {
 	}
 });
 
-PS.unitSort = entities.UnitSorts.strongest
+PS.unitSort = entities.UnitSorts.strongest;
