@@ -1,4 +1,4 @@
-/*const PS = extendContent(ItemTurret, "Purple_Shadow", {
+const PS = extendContent(ItemTurret, "Purple_Shadow", {
 	icons: function(){
 		return [
 			Core.atlas.find("mindustry_G_UP-Purple_Shadow-base"),
@@ -6,5 +6,3 @@
 		];
 	}
 });
-
-PS.unitSort = UnitSorts.strongest;*/
