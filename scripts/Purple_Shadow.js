@@ -13,5 +13,5 @@ const PS = extendContent(ItemTurret, "Purple_Shadow", {
 });
 
 PS.buildType = () => extendContent(ItemTurret.ItemTurretBuild, PS, {
-	unitSort: (u, x, y) => -u.maxHealth
+	unitSort: (u, x, y) -> -u.maxHealth + Mathf.dst2(u.x, u.y, x, y) / 6400f
 });
