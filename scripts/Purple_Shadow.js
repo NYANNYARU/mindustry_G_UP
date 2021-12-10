@@ -1,10 +1,4 @@
-const statuses = require("libs/statuses");
-const fc = require("libs/fc");
-const extras = require("extras/voidicsm");
-const bombs = require("blocks/bombs")
-
 const PS = extendContent(ItemTurret, "Purple_Shadow", {
-	unitSort: (u, x, y) -> -u.maxHealth + Mathf.dst2(u.x, u.y, x, y) / 6400f;
 	icons: function(){
 		return [
 			Core.atlas.find("mindustry_G_UP-Purple_Shadow-base"),
@@ -12,3 +6,5 @@ const PS = extendContent(ItemTurret, "Purple_Shadow", {
 		];
 	}
 });
+
+PS.unitSort = (u, x, y) => -u.maxHealth;
