@@ -18,6 +18,11 @@ coolantMultiplier: 0.5
 health: 3000
 coolantUsage: 1
 buildCostMultiplier: 0.45
+unitSort: {
+    UnitSorts : {
+        Sortf: strongest
+    }
+}
 consumes: {
   power: 2
 }
