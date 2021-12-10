@@ -20,7 +20,7 @@ coolantUsage: 1
 buildCostMultiplier: 0.45
 unitSort: {
   UnitSorts: {
-    strongest
+    Sort: strongest
   }
 }
 consumes: {
