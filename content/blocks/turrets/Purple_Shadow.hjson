@@ -47,7 +47,7 @@ ammoTypes: {
         lifetime: 15
         backColor: f9c216
         frontColor: fff8e8
-        despawnEffect: Fx.none
+        despawnEffect: none
     }
     fragBullets: 24
   }
