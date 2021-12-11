@@ -22,7 +22,7 @@ consumes: {
   power: 2
 }
 ammoTypes: { 
-  Diamond: {
+  surge_alloy: {
     type: PointBulletType
     shootEffect: instShoot
     hitEffect: instHit
