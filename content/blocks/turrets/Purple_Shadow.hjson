@@ -35,10 +35,21 @@ ammoTypes: {
     speed: 640
     hitShake: 6
     ammoMultiplier: 1
-    fragBullet: artilleryPlasticFrag
-    fragBullets: 10
-    lightining: 5
-    lightningLength: 5
+    splashDamageRadius: 24
+    splashDamage: 55
+    fragBullet: {
+        type: BasicBulletType
+        speed: 2.5
+        damage: 25
+        width: 3
+        height: 15
+        shrinkY : 0
+        lifetime: 15
+        backColor: f9c216
+        frontColor: fff8e8
+        despawnEffect: Fx.none
+    }
+    fragBullets: 24
   }
 }
 category: turret
