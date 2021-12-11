@@ -1,6 +1,3 @@
-const PS = extendContent(ItemTurret, "Purple_Shadow", {});
-PS.unitSort = (u, x, y) => -u.maxHealth;
-
 const color1 = Color.valueOf("9a79f7");
 const color2 = Color.valueOf("ede7ff");
 const instShoot_S = new Effect(60, e => {
@@ -78,4 +75,7 @@ PointBulletType_S.speed = 640;
 PointBulletType_S.hitShake = 6;
 PointBulletType_S.ammoMultiplier = 1;
 
-PS.ammo(Items.surgeAlloy, PointBulletType_S);
+const PS = extendContent(ItemTurret, "Purple_Shadow", {
+    this.unitSort = (u, x, y) => -u.maxHealth;
+    this.ammo(Items.surgeAlloy, PointBulletType_S);
+});
