@@ -21,7 +21,7 @@ buildCostMultiplier: 0.45
 consumes: {
   power: 2
 }
-ammoTypes: { 
+/*ammoTypes: { 
   surge-alloy: {
     type: PointBulletType
     shootEffect: instShoot
@@ -36,7 +36,7 @@ ammoTypes: {
     hitShake: 6
     ammoMultiplier: 1
   }
-}
+}*/
 category: turret
 requirements: [
   copper/2000
