@@ -24,10 +24,10 @@ consumes: {
 ammoTypes: { 
   surge-alloy: {
     type: PointBulletType
-    shootEffect: instShoot_S
-    hitEffect: instHit_S
+    shootEffect: instShoot
+    hitEffect: instHit
     smokeEffect: smokeCloud
-    trailEffect: instTrail_S
+    trailEffect: instTrail
     despawnEffect: instBomb
     trailSpacing: 20
     damage: 2000
