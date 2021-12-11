@@ -77,4 +77,4 @@ PointBulletType_S.ammoMultiplier = 1;
 
 const PS = extendContent(ItemTurret, "Purple_Shadow", {});
 PS.unitSort = (u, x, y) => -u.maxHealth;
-PS.ammo.add(Items.surgeAlloy, PointBulletType);
+PS.ammoType.add(Items.surgeAlloy, PointBulletType_S);
