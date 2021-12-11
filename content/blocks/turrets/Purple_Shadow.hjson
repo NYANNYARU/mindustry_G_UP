@@ -22,7 +22,7 @@ consumes: {
   power: 2
 }
 /*ammoTypes: { 
-  /*surge-alloy: {
+  surge-alloy: {
     type: PointBulletType
     shootEffect: instShoot
     hitEffect: instHit
@@ -35,7 +35,7 @@ consumes: {
     speed: 640
     hitShake: 6
     ammoMultiplier: 1
-  }*/
+  }
 }*/
 category: turret
 requirements: [
