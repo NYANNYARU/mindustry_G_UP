@@ -24,7 +24,7 @@ consumes: {
 ammoTypes: { 
   surge-alloy: {
     type: PointBulletType
-    shootEffect: instShoot
+    shootEffect: instShoot_P
     hitEffect: instHit
     smokeEffect: smokeCloud
     trailEffect: instTrail
