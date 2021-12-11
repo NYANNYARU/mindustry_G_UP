@@ -23,8 +23,8 @@ consumes: {
 }
 ammoTypes: { 
   Diamond: {
-    type: PointBulletType_S__
-    /*shootEffect: instShoot
+    type: PointBulletType
+    shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
     trailEffect: instTrail
@@ -34,7 +34,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.5
     speed: 640
     hitShake: 6
-    ammoMultiplier: 1*/
+    ammoMultiplier: 1
   }
 }
 category: turret
