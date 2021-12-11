@@ -75,7 +75,5 @@ PointBulletType_S.speed = 640;
 PointBulletType_S.hitShake = 6;
 PointBulletType_S.ammoMultiplier = 1;
 
-const PS = extendContent(ItemTurret, "Purple_Shadow", {
-    this.unitSort = (u, x, y) => -u.maxHealth;
-    this.ammo(Items.surgeAlloy, PointBulletType_S);
-});
+const PS = extendContent(ItemTurret, "Purple_Shadow", {});
+PS.unitSort = (u, x, y) => -u.maxHealth;
