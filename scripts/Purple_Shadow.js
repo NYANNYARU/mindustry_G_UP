@@ -4,7 +4,7 @@ const instShoot_S = new Effect(60, e => {
     e.scaled(10, b -> {
         color(Color.white, color1, b.fin());
         stroke(b.fout() * 3 + 0.2);
-        Lines.circle(b.x, b.y, b.fin() * 50f);
+        Lines.circle(b.x, b.y, b.fin() * 50);
     });
 
     color(color1);
