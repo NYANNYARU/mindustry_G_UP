@@ -35,10 +35,10 @@ ammoTypes: {
     speed: 640
     hitShake: 6
     ammoMultiplier: 1
-/*    fragBullet = artilleryPlasticFrag;
-    fragBullets = 10;
+    /* fragBullet = artilleryPlasticFrag;
+    fragBullets = 10;*/
     lightining: 5
-    lightningLength: 5*/
+    lightningLength: 5
   }
 }
 category: turret
