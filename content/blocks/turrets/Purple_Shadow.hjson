@@ -1,4 +1,4 @@
-//type: ItemTurret
+type: ItemTurret
 name: Purple Shadow
 size: 4
 range: 640
@@ -23,11 +23,11 @@ consumes: {
 }
 ammoTypes: { 
   surge-alloy: {
-    type: PointBulletType_S
-    /*shootEffect: instShoot_P
+    type: PointBulletType
+    shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
-    trailEffect: instTrail
+    trailEffect: shockwave
     despawnEffect: instBomb
     trailSpacing: 20
     damage: 2000
