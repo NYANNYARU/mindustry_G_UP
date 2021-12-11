@@ -62,7 +62,7 @@ instTrail_S = new Effect(30, e -> {
     Draw.light(e.x, e.y, 60, color1, 0.6 * e.fout());
 });
 
- PointBulletType_S = extend(PointBulletType{});
+PointBulletType_S = extend(PointBulletType{});
 PointBulletType_S.shootEffect = instShoot_S;
 PointBulletType_S.hitEffect = instHit_S;
 PointBulletType_S.smokeEffect = Fx.smokeCloud;
@@ -75,12 +75,8 @@ PointBulletType_S.speed = 640;
 PointBulletType_S.hitShake = 6;
 PointBulletType_S.ammoMultiplier = 1;
 
-const PS = extendContent(ItemTurret, "Purple_Shadow", {
-    init(){
-        this.super$init();
-        this.ammo(Items.silicon, thorConcussAmmo);
-		print(this.ammo);
-    }
-});
+const PS = extendContent(ItemTurret, "Purple_Shadow", {});
 PS.unitSort = (u, x, y) => -u.maxHealth;
-PS.ammo.add(Items.surgeAlloy, PointBulletType_S);
+PS.ammoTypes.surgeAlloy.shootEffect = instShoot_S;
+PS.ammoTypes.surgeAlloy.hitEffect = instHit_S;
+PS.ammoTypes.surgeAlloy.trailEffect = instTrail_S;
