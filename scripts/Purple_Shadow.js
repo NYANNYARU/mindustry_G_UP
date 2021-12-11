@@ -60,10 +60,22 @@ instTrail_S = new Effect(30, e -> {
     }
 
     Draw.light(e.x, e.y, 60, color1, 0.6 * e.fout());
-}),
+});
 
-const PointBulletType_S = extend(PointBulletType{});
-PointBulletType_S.shootEffect = instShoot_S;
+const PointBulletType_S = extend(PointBulletType{
+    this.shootEffect = instShoot_S;
+    this.hitEffect = instHit_S;
+    this.smokeEffect = Fx.smokeCloud;
+    this.trailEffect = instTrail_S;
+    this.despawnEffect = Fx.instBomb;
+    this.trailSpacing = 20;
+    this.damage = 2000;
+    this.buildingDamageMultiplier = 0.5;
+    this.speed = 640;
+    this.hitShake = 6;
+    this.ammoMultiplier = 1;                                 
+});
+/*PointBulletType_S.shootEffect = instShoot_S;
 PointBulletType_S.hitEffect = instHit_S;
 PointBulletType_S.smokeEffect = Fx.smokeCloud;
 PointBulletType_S.trailEffect = instTrail_S;
@@ -73,7 +85,7 @@ PointBulletType_S.damage = 2000;
 PointBulletType_S.buildingDamageMultiplier = 0.5;
 PointBulletType_S.speed = 640;
 PointBulletType_S.hitShake = 6;
-PointBulletType_S.ammoMultiplier = 1;
+PointBulletType_S.ammoMultiplier = 1;*/
 
 const PS = extendContent(ItemTurret, "Purple_Shadow", {});
 PS.unitSort = (u, x, y) => -u.maxHealth;
