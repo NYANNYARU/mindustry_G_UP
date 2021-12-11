@@ -63,9 +63,9 @@ instTrail_S = new Effect(30, e -> {
 }),
 
 const PointBulletType_S = extend(PointBulletType{});
-PointBulletType_S.shootEffect = instShoot_S;
+PointBulletType_S.shootEffect = Fx.instShoot_S;
 PointBulletType_S.hitEffect = instHit_S;
-PointBulletType_S.smokeEffect = smokeCloud;
+PointBulletType_S.smokeEffect = Fx.smokeCloud;
 PointBulletType_S.trailEffect = instTrail_S;
 PointBulletType_S.despawnEffect = instBomb;
 PointBulletType_S.trailSpacing = 20;
@@ -77,3 +77,4 @@ PointBulletType_S.ammoMultiplier = 1;
 
 const PS = extendContent(ItemTurret, "Purple_Shadow", {});
 PS.unitSort = (u, x, y) => -u.maxHealth;
+PS.ammo(surgeAlloy, PointBulletType_S);
