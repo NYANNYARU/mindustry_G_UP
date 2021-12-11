@@ -1,5 +1,5 @@
 const color1 = Color.valueOf("9a79f7");
-const instShoot_P = newEffect(60, e => {
+const instShoot_P = new Effect(60, e => {
     e.scaled(10, b -> {
             color(Color.white, color1, b.fin());
             stroke(b.fout() * 3f + 0.2f);
