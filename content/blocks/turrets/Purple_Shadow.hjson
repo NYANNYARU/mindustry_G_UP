@@ -36,7 +36,7 @@ ammoTypes: {
     hitShake: 6
     ammoMultiplier: 1
     splashDamageRadius: 24
-    splashDamage: 55
+    splashDamage: 111
     fragBullet: {
         type: BasicBulletType
         speed: 2.5
