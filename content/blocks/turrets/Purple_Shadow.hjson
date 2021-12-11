@@ -23,7 +23,7 @@ consumes: {
 }
 ammoTypes: { 
   Diamond: {
-    type: PointBulletType_S
+    type: PointBulletType_S__
     /*shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
