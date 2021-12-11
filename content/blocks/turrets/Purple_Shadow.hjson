@@ -27,7 +27,7 @@ ammoTypes: {
     shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
-    trailEffect: nuclearShockwave
+    trailEffect: instTrail
     despawnEffect: instBomb
     trailSpacing: 20
     damage: 2000
