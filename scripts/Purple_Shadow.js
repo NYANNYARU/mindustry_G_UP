@@ -62,7 +62,7 @@ instTrail_S = new Effect(30, e -> {
     Draw.light(e.x, e.y, 60, color1, 0.6 * e.fout());
 });
 
-const PointBulletType_S = extend(PointBulletType{});
+ PointBulletType_S = extend(PointBulletType{});
 PointBulletType_S.shootEffect = instShoot_S;
 PointBulletType_S.hitEffect = instHit_S;
 PointBulletType_S.smokeEffect = Fx.smokeCloud;
