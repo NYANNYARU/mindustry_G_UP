@@ -24,9 +24,6 @@ consumes: {
 ammoTypes: { 
   surge-alloy: {
     type: PointBulletType
-    frontColor: ffaaff
-    backColor: bb00bb
-    trailColor: bb00bb
     shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
