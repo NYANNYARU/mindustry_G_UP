@@ -40,7 +40,7 @@ ammoTypes: {
     fragBullet: {
         type: BasicBulletType
         speed: 2.5
-        damage: 25
+        damage: 100
         width: 3
         height: 15
         shrinkY : 0
