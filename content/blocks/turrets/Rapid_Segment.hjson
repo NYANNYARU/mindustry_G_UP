@@ -3,11 +3,10 @@ name: Rapid Segment
 hasPower: true
 size: 2
 range: 224
-bulletDamage: 30
+bulletDamage: 50
 health: 1250
-inaccuracy: 5
-reloadTime: 3
-shootLength: 7
+reloadTime: 2.5
+shootLength: 5
 consumes: {
   power: 10
 }
