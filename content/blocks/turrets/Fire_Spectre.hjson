@@ -58,7 +58,7 @@ ammoTypes: {
     speed: 8
     width: 16
     height: 23
-    shootEffect: FshootBig
+    shootEffect: shootBig
     pierceCap: 2
     pierceBuilding: true
     knockback: 0.7
