@@ -20,11 +20,11 @@ shootEffect: lancerLaserShoot
 smokeEffect: none
 chargeEffect: lancerLaserCharge
 chargeBeginEffect: lancerLaserChargeBegin
-heatColor: ff33ff
+heatColor: 33ffff
 size: 2
 health: 1750
 targetAir: false
-shootSound: laser;
+shootSound: laser
 shootType: {
   type: LaserBulletType
   damage: 300
