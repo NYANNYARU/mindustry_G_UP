@@ -31,7 +31,7 @@ shootType: {
   hitEffect: hitLancer
   hitSize: 8
   lifetime: 20
-  drawSize: 500
+  drawSize: 800
   collidesAir: false
   length: 213
   ammoMultiplier: 1
