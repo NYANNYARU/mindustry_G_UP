@@ -1,0 +1,22 @@
+type: PointDefenseTurret
+name: Rapid Segment
+hasPower: true
+size: 2
+range: 224
+bulletDamage: 30
+health: 1250
+inaccuracy: 5
+reloadTime: 3
+shootLength: 7
+consumes: {
+  power: 10
+}
+requirements: [
+  silicon/260
+  thorium/160
+  phase-fabric/80
+  Gold/500
+  Sodium_Battery/500
+]
+category: turret
+research: segment
