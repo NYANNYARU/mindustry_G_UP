@@ -20,7 +20,7 @@ shootEffect: lancerLaserShoot
 smokeEffect: none
 chargeEffect: lancerLaserCharge
 chargeBeginEffect: lancerLaserChargeBegin
-heatColor: red
+heatColor: ff33ff
 size: 2
 health: 1750
 targetAir: false
@@ -28,7 +28,6 @@ shootSound: laser;
 shootType: {
   type: LaserBulletType
   damage: 300
-  colors: ff33ff
   hitEffect: hitLancer
   hitSize: 8
   lifetime: 20
