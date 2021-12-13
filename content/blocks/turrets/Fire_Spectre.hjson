@@ -13,4 +13,66 @@ shootShake: 2
 shots: 2
 size: 4
 shootCone: 24
-shootSound: shootBig
+shootSound: F_shootBig
+health: 3250
+coolantUsage: 1
+ammoTypes: {
+  graphite: {
+    type: BasicBulletType
+    sprite: bullet
+    speed: 7.5
+    damage: 82.5
+    frontColor: f77979
+    backColor: f7e7e7
+    hitSize: 4.8
+    width: 15
+    height: 21
+    shootEffect: shootBig
+    ammoMultiplier: 2
+    reloadMultiplier: 1.7
+    knockback: 0.3
+  }
+  pyratite: {
+    type: BasicBulletType
+    sprite: bullet
+    speed: 7
+    damage: 90
+    hitSize: 5
+    width: 16
+    height: 21
+    frontColor: ffa14a
+    backColor: fc7d26
+    status: burning
+    hitEffect: hitBulletSmall
+    shootEffect: shootBig
+    makeFire: true
+    pierceCap: 2
+    pierceBuilding: true
+    knockback: 0.7
+    ammoMultiplier: 2
+  }
+  thorium: {
+    type: BasicBulletType
+    sprite: bullet
+    damage: 120
+    speed: 8
+    width: 16
+    height: 23
+    shootEffect: FshootBig
+    pierceCap: 2
+    pierceBuilding: true
+    knockback: 0.7
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  copper/1200
+  graphite/450
+  thorium/375
+  plastanium:262
+  surge-alloy/375
+  Iron/250
+  Gold/150
+  Sodium_Battery/500
+]
+category: turret
