@@ -10,7 +10,7 @@ category: turret
 range: 200
 chargeTime: 30
 chargeMaxDelay: 20
-chargeEffects: 10
+chargeEffects: 5
 recoilAmount: 2
 reloadTime: 60
 cooldown: 0.03
