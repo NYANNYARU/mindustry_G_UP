@@ -70,7 +70,7 @@ ammoTypes: {
     frontColor: e7f7f6
     backColor: 79f7f2
     damage: 180
-    speed: 9
+    speed: 10
     width: 16
     height: 23
     shootEffect: shootBig
