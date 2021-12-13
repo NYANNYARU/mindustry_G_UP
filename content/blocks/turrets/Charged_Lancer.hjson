@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Charged_Lancer
+name: Charged Lancer
 requirements: [
   copper/200 
   lead/200
