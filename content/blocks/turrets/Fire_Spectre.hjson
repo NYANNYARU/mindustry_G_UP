@@ -67,8 +67,8 @@ ammoTypes: {
   Diamond: {
     type: BasicBulletType
     sprite: bullet
-    frontColor: 79f7f2
-    backColor: e7f7f6
+    frontColor: e7f7f6
+    backColor: 79f7f2
     damage: 180
     speed: 9
     width: 16
