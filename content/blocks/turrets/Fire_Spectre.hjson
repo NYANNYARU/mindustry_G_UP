@@ -22,8 +22,8 @@ ammoTypes: {
     sprite: bullet
     speed: 7.5
     damage: 82.5
-    frontColor: f77979
-    backColor: f7e7e7
+    frontColor: f7e7e7
+    backColor: f77979
     hitSize: 4.8
     width: 15
     height: 21
@@ -40,8 +40,8 @@ ammoTypes: {
     hitSize: 5
     width: 16
     height: 21
-    frontColor: ffa14a
-    backColor: fc7d26
+    frontColor: fc7d26
+    backColor: ffa14a
     status: burning
     hitEffect: hitBulletSmall
     shootEffect: shootBig
@@ -54,6 +54,8 @@ ammoTypes: {
   thorium: {
     type: BasicBulletType
     sprite: bullet
+    frontColor: f7e7e7
+    backColor: f77979
     damage: 120
     speed: 8
     width: 16
