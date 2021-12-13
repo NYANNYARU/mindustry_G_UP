@@ -28,7 +28,7 @@ shootSound: laser;
 shootType: {
   type: LaserBulletType
   damage: 300
-  colors: red
+  colors: ff33ff
   hitEffect: hitLancer
   hitSize: 8
   lifetime: 20
