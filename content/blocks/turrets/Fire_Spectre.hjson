@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Fire Spectre
 reloadTime: 5
-coolantMultiplier: 5
+coolantMultiplier: 0.5
 restitution: 0.1
 ammoUseEffect: casing3
 range: 264
