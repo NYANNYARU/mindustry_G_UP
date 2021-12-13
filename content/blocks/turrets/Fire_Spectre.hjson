@@ -40,8 +40,8 @@ ammoTypes: {
     hitSize: 5
     width: 16
     height: 21
-    frontColor: fc7d26
-    backColor: ffa14a
+    frontColor: ffa14a
+    backColor: fc7d26
     status: burning
     hitEffect: hitBulletSmall
     shootEffect: shootBig
