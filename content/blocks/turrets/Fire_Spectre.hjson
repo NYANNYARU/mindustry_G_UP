@@ -24,7 +24,7 @@ ammoTypes: {
     damage: 82.5
     frontColor: f7e7e7
     backColor: f77979
-    hitSize: 4.8
+    hitSize: 5
     width: 15
     height: 21
     shootEffect: shootBig
@@ -55,6 +55,7 @@ ammoTypes: {
     frontColor: f7e7e7
     backColor: f77979
     damage: 120
+    hitSize: 5
     speed: 8
     width: 16
     height: 23
@@ -70,6 +71,7 @@ ammoTypes: {
     frontColor: e7f7f6
     backColor: 79f7f2
     damage: 180
+    hitSize: 5
     speed: 10
     width: 16
     height: 23
