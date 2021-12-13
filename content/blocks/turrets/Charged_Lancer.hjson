@@ -1,0 +1,39 @@
+type: PowerTurret
+name: Charged_Lancer
+requirements: [
+  copper/200 
+  lead/200
+  silicon/200
+  Sodium_Battery/250
+]
+category: turret
+range: 200
+chargeTime: 30
+chargeMaxDelay: 20
+chargeEffects: 10
+recoilAmount: 2
+reloadTime: 60
+cooldown: 0.03
+powerUse: 10
+shootShake: 2
+shootEffect: lancerLaserShoot
+smokeEffect: none
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: red
+size: 2
+health: 1750
+targetAir: false
+shootSound: laser;
+shootType: {
+  type: LaserBulletType
+  damage: 300
+  colors: red
+  hitEffect: hitLancer
+  hitSize: 8
+  lifetime: 20
+  drawSize: 400
+  collidesAir: false
+  length: 213
+  ammoMultiplier: 1
+}
