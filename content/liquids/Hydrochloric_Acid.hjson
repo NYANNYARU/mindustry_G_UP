@@ -1,5 +1,5 @@
 name: Hydrochloric Acid
-heatCapacity: 1.5
+heatCapacity: 2
 viscosity: 0.35
 temperature: 0
 color: ddddff
