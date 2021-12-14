@@ -9,6 +9,7 @@ damage: 10
 health: 500
 rotateSpeed: 25
 targetGround: true
+buildCostMultiplier: 0.5
 consumes: {
   power: 6.666666666666
 }
@@ -16,8 +17,8 @@ requirements: [
   graphite/150
   thorium/200
   silicon/250
-  Iron/150
-  Diamond/150
+  Iron/500
+  Diamond/25
   Sodium_Battery/300
 ]
 category: turret
