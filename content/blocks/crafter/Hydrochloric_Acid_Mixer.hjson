@@ -1,10 +1,10 @@
-//type: GenericCrafter
+type: LiquidConverter
 name: Hydrochloric Acid Mixer
 size: 2
 hasPower: true
 hasLiquids: true
 hasItems: true
-liquidCapacity: 30
+liquidCapacity: 60
 itemCapacity: 10
 craftTime: 20
 updateEffect: wet
@@ -14,7 +14,7 @@ requirements: [
   lead/300
   graphite/100
   metaglass/200
-  Gold/10
+  Gold/25
 ]
 consumes: {
   power: 1.25
