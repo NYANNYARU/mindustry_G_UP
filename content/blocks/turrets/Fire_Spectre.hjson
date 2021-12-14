@@ -28,7 +28,7 @@ ammoTypes: {
     width: 15
     height: 21
     shootEffect: shootBig
-    ammoMultiplier: 2
+    ammoMultiplier: 4
   }
   pyratite: {
     type: BasicBulletType
@@ -47,7 +47,7 @@ ammoTypes: {
     pierceCap: 2
     pierceBuilding: true
     knockback: 0.7
-    ammoMultiplier: 2
+    ammoMultiplier: 4
   }
   thorium: {
     type: BasicBulletType
@@ -63,7 +63,7 @@ ammoTypes: {
     pierceCap: 2
     pierceBuilding: true
     knockback: 0.7
-    ammoMultiplier: 2
+    ammoMultiplier: 4
   }
   Diamond: {
     type: BasicBulletType
@@ -101,8 +101,9 @@ requirements: [
   thorium/375
   plastanium/262
   surge-alloy/375
-  Iron/250
-  Gold/150
+  Iron/1000
+  Gold/500
+  Diamond/250
   Sodium_Battery/500
 ]
 category: turret
