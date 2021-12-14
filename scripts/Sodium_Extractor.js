@@ -1,14 +1,4 @@
-const NaExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {
-	/* drawBase: function(tile){
-        this.super$drawBase(tile);
-        Draw.color(this.outputLiquid.liquid.color);
-		Draw.alpha(this.liquids.total() / this.liquidCapacity);
-		Draw.rect(Core.atlas.find(this.name + "-liquid"), tile.drawx(), tile.drawy());
-		Draw.color();
-		Draw.rect(Core.atlas.find(this.name + "-top"), tile.drawx(), tile.drawy());
-        Draw.reset();
-	}, */
-});
+const NaExtractor = extendContent(GenericCrafter, "Sodium_Extractor", {});
 
 const water = Liquids.water;
 const Wwater = new Liquid("Waste_Water");
