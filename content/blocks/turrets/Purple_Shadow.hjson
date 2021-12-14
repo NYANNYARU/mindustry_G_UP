@@ -39,7 +39,7 @@ ammoTypes: {
     splashDamage: 111
     fragBullet: {
         type: BasicBulletType
-        speed: 2.5
+        speed: 5
         damage: 100
         width: 3
         height: 15
