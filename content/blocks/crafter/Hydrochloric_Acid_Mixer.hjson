@@ -20,6 +20,6 @@ consumes: {
   power: 1.25
   liquid: Waste_Water/0.5
 }
-outputLiquid: Hydrochloric_Acid/0.5
+outputLiquid: Hydrochloric_Acid/10
 category: crafting
 research: Sodium_Extractor
