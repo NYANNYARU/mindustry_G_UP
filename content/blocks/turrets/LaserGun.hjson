@@ -9,7 +9,7 @@ damage: 10
 health: 500
 rotateSpeed: 25
 targetGround: true
-buildCostMultiplier: 0.5
+buildCostMultiplier: 0.67
 consumes: {
   power: 6.666666666666
 }
