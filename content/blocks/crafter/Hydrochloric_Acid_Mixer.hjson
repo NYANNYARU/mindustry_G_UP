@@ -10,10 +10,10 @@ craftTime: 20
 updateEffect: wet
 buildCostMultiplier: 0.5
 requirements: [
-  copper/200
-  lead/300
+  copper/150
+  lead/150
   graphite/100
-  metaglass/200
+  metaglass/100
   Gold/25
 ]
 consumes: {
