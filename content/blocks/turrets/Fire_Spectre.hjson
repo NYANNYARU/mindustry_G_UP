@@ -103,9 +103,9 @@ requirements: [
   surge-alloy/455
   Iron/750
   Gold/500
-  Diamond/1000
+  Diamond/500
   Sodium_Battery/1000
 ]
-buildCostMultiplier: 0.75
+buildCostMultiplier: 0.8
 category: turret
 research: spectre
