@@ -106,5 +106,6 @@ requirements: [
   Diamond/1000
   Sodium_Battery/1000
 ]
+buildCostMultiplier: 0.75
 category: turret
 research: spectre
