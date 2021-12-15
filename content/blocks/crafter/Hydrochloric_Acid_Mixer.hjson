@@ -1,4 +1,4 @@
-type: LiquidConverter
+//type: GenericCrafter
 name: Hydrochloric Acid Mixer
 size: 2
 hasPower: true
