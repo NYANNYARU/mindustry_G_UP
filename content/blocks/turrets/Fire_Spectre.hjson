@@ -76,8 +76,6 @@ ammoTypes: {
     width: 16
     height: 23
     shootEffect: shootBig
-    pierceCap: 2
-    pierceBuilding: true
     knockback: 1
     ammoMultiplier: 4
     fragBullet: {
