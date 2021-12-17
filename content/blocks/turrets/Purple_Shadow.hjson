@@ -39,7 +39,7 @@ ammoTypes: {
         speed: 8
         damage: 100
         splashDamage: 25
-        splashDamageRadius: 20
+        splashDamageRadius: 32
         width: 3
         height: 15
         shrinkY : 0
