@@ -30,8 +30,6 @@ ammoTypes: {
     trailEffect: instTrail
     despawnEffect: instBomb
     trailSpacing: 20
-    splashDamage: 111
-    splashDamageRadius: 40
     buildingDamageMultiplier: 0.5
     speed: 640
     hitShake: 6
@@ -40,6 +38,8 @@ ammoTypes: {
         type: BasicBulletType
         speed: 8
         damage: 100
+        splashDamage: 5
+        splashDamageRadius: 20
         width: 3
         height: 15
         shrinkY : 0
