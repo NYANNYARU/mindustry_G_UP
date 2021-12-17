@@ -90,7 +90,7 @@ ammoTypes: {
       frontColor: ffffff
       despawnEffect: none
     }
-    fragBullets: 16
+    fragBullets: 
   }
 }
 requirements: [
