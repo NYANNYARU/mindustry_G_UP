@@ -29,26 +29,26 @@ ammoTypes: {
     trailEffect: instTrail
     despawnEffect: instBomb
     trailSpacing: 20
-    damage: 2000
+    splashDamageRadius: 40
+    splashDamage: 111
     buildingDamageMultiplier: 0.5
     speed: 640
     hitShake: 6
     ammoMultiplier: 1
-    splashDamageRadius: 40
-    splashDamage: 111
+    damage: 2000
     fragBullet: {
         type: BasicBulletType
-        speed: 5
+        speed: 8
         damage: 100
         width: 3
         height: 15
-        shrinkY : 0
+        shrinkY : 0.1
         lifetime: 15
         backColor: f9c216
         frontColor: fff8e8
         despawnEffect: none
     }
-    fragBullets: 24
+    fragBullets: 12
   }
 }
 category: turret
