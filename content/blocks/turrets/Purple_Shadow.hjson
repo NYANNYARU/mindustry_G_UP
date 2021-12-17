@@ -42,7 +42,7 @@ ammoTypes: {
         damage: 100
         width: 3
         height: 15
-        shrinkY : 1
+        shrinkY : 0.2
         lifetime: 15
         backColor: f9c216
         frontColor: fff8e8
