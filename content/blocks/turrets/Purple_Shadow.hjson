@@ -1,7 +1,7 @@
 //type: ItemTurret
 name: Purple Shadow
 size: 4
-range: 600
+range: 588
 ammoPerShot: 3
 maxAmmo: 50
 rotateSpeed: 5
@@ -31,7 +31,7 @@ ammoTypes: {
     despawnEffect: instBomb
     trailSpacing: 20
     buildingDamageMultiplier: 0.5
-    speed: 640
+    speed: 588
     hitShake: 6
     ammoMultiplier: 1
     fragBullet: {
