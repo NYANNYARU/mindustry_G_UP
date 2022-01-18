@@ -41,11 +41,11 @@ ammoTypes: {
         hitEffect: flakExplosion
         speed: 2
         damage: 50
-        splashDamage: 50
+        splashDamage: 75
         splashDamageRadius: 24
         width: 12
         height: 8
-        lifetime: 30
+        lifetime: 24
         
         collidesTiles: false
         collides: false
@@ -54,10 +54,8 @@ ammoTypes: {
         hitShake: 1
         hitSound: explosion
         trailEffect: artilleryTrail
-        shrinkX: 0.05
-        shrinkY: 0.05
     }
-    fragBullets: 20
+    fragBullets: 24
   }
 }
 category: turret
