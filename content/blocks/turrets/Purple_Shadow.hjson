@@ -36,17 +36,16 @@ ammoTypes: {
     ammoMultiplier: 1
     fragBullet: {
         type: artilleryDense
-        speed: 8
+        collidesTiles: false
+        hitEffect: flakExplosion
+        speed: 1
         damage: 50
         splashDamage: 50
         splashDamageRadius: 24
         width: 10
         height: 10
         shrinkY : 0
-        lifetime: 15
-        backColor: f9c216
-        frontColor: fff8e8
-        despawnEffect: none
+        lifetime: 80
     }
     fragBullets: 20
   }
