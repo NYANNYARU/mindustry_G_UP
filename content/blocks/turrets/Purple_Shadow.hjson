@@ -38,14 +38,15 @@ ammoTypes: {
         type: artilleryDense
         collidesTiles: false
         hitEffect: flakExplosion
+        hitSound: shell
         speed: 1
         damage: 50
         splashDamage: 50
         splashDamageRadius: 24
         width: 10
         height: 10
-        shrinkY : 0
-        lifetime: 80
+        shrinkY : 0.1
+        lifetime: 60
     }
     fragBullets: 20
   }
