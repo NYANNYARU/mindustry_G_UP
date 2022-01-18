@@ -36,36 +36,25 @@ ammoTypes: {
     ammoMultiplier: 1
     fragBullet: {
         type: ArtilleryDense
-        collidesTiles: false
         bulletSprite: shell
         hitEffect: flakExplosion
         speed: 1
         damage: 50
         splashDamage: 50
         splashDamageRadius: 24
-        width: 10
-        height: 10
-        shrinkY : 0.1
+        width: 12.5
+        height: 12.5
         lifetime: 60
         
         collidesTiles: false
         collides: false
         collidesAir: false
-        scaleVelocity: true
-        hitShake: 1f
+        scaleVelocity: false
+        hitShake: 1
         hitSound: explosion
         trailEffect: artilleryTrail
-
-        shrinkX: 0.15
-        shrinkY: 0.63
-
-        trailLength: 27
-        trailWidth: 3.5
-        trailEffect: none
-        trailColor: bulletYellowBack
-        trailInterp: slope
-        shrinkX: 0.8
-        shrinkY: 0.3
+        shrinkX: 0
+        shrinkY: 0
     }
     fragBullets: 20
   }
