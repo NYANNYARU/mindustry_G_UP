@@ -37,13 +37,14 @@ ammoTypes: {
     fragBullet: {
         type: ArtilleryBulletType
         bulletSprite: shell
+        bulletSprite: shell
         hitEffect: flakExplosion
         speed: 2
         damage: 50
         splashDamage: 50
         splashDamageRadius: 24
-        width: 10
-        height: 10
+        width: 12
+        height: 8
         lifetime: 30
         
         collidesTiles: false
@@ -53,8 +54,8 @@ ammoTypes: {
         hitShake: 1
         hitSound: explosion
         trailEffect: artilleryTrail
-        shrinkX: 0
-        shrinkY: 0
+        shrinkX: 0.05
+        shrinkY: 0.05
     }
     fragBullets: 20
   }
