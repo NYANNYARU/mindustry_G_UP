@@ -35,16 +35,16 @@ ammoTypes: {
     hitShake: 6
     ammoMultiplier: 1
     fragBullet: {
-        type: ArtilleryDense
+        type: ArtilleryBulletType
         bulletSprite: shell
         hitEffect: flakExplosion
-        speed: 1
+        speed: 2
         damage: 50
         splashDamage: 50
         splashDamageRadius: 24
-        width: 12.5
-        height: 12.5
-        lifetime: 60
+        width: 10
+        height: 10
+        lifetime: 30
         
         collidesTiles: false
         collides: false
