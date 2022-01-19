@@ -38,13 +38,13 @@ ammoTypes: {
         type: ArtilleryBulletType
         bulletSprite: shell
         hitEffect: flakExplosion
-        speed: 2
+        speed: 1.5
         damage: 0
         splashDamage: 120
         splashDamageRadius: 24
         width: 12
         height: 8
-        lifetime: 24
+        lifetime: 36
         shrinkX: 0
         shrinkY: 0
         
@@ -55,6 +55,7 @@ ammoTypes: {
         hitShake: 1
         hitSound: explosion
         trailEffect: artilleryTrail
+        trailEffect: none
     }
     fragBullets: 24
   }
