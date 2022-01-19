@@ -40,8 +40,8 @@ ammoTypes: {
         bulletSprite: shell
         hitEffect: flakExplosion
         speed: 2
-        damage: 50
-        splashDamage: 75
+        damage: 0
+        splashDamage: 120
         splashDamageRadius: 24
         width: 12
         height: 8
