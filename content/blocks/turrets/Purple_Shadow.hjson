@@ -51,7 +51,7 @@ ammoTypes: {
         
         collidesTiles: false
         collides: false
-        collidesAir: false
+        collidesAir: true
         scaleVelocity: false
         hitShake: 1
         hitSound: explosion
@@ -74,7 +74,7 @@ ammoTypes: {
         
             collidesTiles: false
             collides: false
-            collidesAir: false
+            collidesAir: true
             scaleVelocity: false
             hitShake: 1
             hitSound: explosion
@@ -97,7 +97,7 @@ ammoTypes: {
         
                 collidesTiles: false
                 collides: false
-                collidesAir: false
+                collidesAir: true
                 scaleVelocity: false
                 hitShake: 1
                 hitSound: explosion
@@ -120,7 +120,7 @@ ammoTypes: {
         
                     collidesTiles: false
                     collides: false
-                    collidesAir: false
+                    collidesAir: true
                     scaleVelocity: false
                     hitShake: 1
                     hitSound: explosion
@@ -143,7 +143,7 @@ ammoTypes: {
         
                         collidesTiles: false
                         collides: false
-                        collidesAir: false
+                        collidesAir: true
                         scaleVelocity: false
                         hitShake: 1
                         hitSound: explosion
