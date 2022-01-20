@@ -41,7 +41,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         speed: 1.5
         damage: 0
-        splashDamage: 80
+        splashDamage: 40
         splashDamageRadius: 24
         width: 12
         height: 8
@@ -64,7 +64,7 @@ ammoTypes: {
             hitEffect: flakExplosion
             speed: 1.5
             damage: 0
-            splashDamage: 80
+            splashDamage: 40
             splashDamageRadius: 24
             width: 12
             height: 8
@@ -87,7 +87,7 @@ ammoTypes: {
                 hitEffect: flakExplosion
                 speed: 1.5
                 damage: 0
-                splashDamage: 80
+                splashDamage: 40
                 splashDamageRadius: 24
                 width: 12
                 height: 8
@@ -110,7 +110,7 @@ ammoTypes: {
                     hitEffect: flakExplosion
                     speed: 1.5
                     damage: 0
-                    splashDamage: 80
+                    splashDamage: 40
                     splashDamageRadius: 24
                     width: 12
                     height: 8
@@ -133,7 +133,7 @@ ammoTypes: {
                         hitEffect: flakExplosion
                         speed: 1.5
                         damage: 0
-                        splashDamage: 80
+                        splashDamage: 40
                         splashDamageRadius: 24
                         width: 12
                         height: 8
