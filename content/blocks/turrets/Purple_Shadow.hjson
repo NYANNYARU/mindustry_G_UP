@@ -23,14 +23,14 @@ consumes: {
 ammoTypes: { 
   surge-alloy: {
     type: PointBulletType
-    damage: 0
+    damage: 2000
     shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
     trailEffect: instTrail
     despawnEffect: instBomb
     trailSpacing: 20
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0
     speed: 588
     hitShake: 6
     ammoMultiplier: 1
@@ -40,7 +40,7 @@ ammoTypes: {
         bulletSprite: shell
         hitEffect: flakExplosion
         speed: 1.5
-        damage: 0
+        damage: 40
         splashDamage: 40
         splashDamageRadius: 24
         width: 12
