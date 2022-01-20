@@ -45,7 +45,7 @@ ammoTypes: {
         splashDamageRadius: 24
         width: 12
         height: 8
-        lifetime: 
+        lifetime: 10
         shrinkX: 0
         shrinkY: 0
         
@@ -68,7 +68,7 @@ ammoTypes: {
             splashDamageRadius: 24
             width: 12
             height: 8
-            lifetime: 
+            lifetime: 10
             shrinkX: 0
             shrinkY: 0
         
@@ -91,7 +91,7 @@ ammoTypes: {
                 splashDamageRadius: 24
                 width: 12
                 height: 8
-                lifetime: 
+                lifetime: 10
                 shrinkX: 0
                 shrinkY: 0
         
@@ -114,7 +114,7 @@ ammoTypes: {
                     splashDamageRadius: 24
                     width: 12
                     height: 8
-                    lifetime: 
+                    lifetime: 10
                     shrinkX: 0
                     shrinkY: 0
         
@@ -137,7 +137,7 @@ ammoTypes: {
                         splashDamageRadius: 24
                         width: 12
                         height: 8
-                        lifetime: 
+                        lifetime: 10
                         shrinkX: 0
                         shrinkY: 0
         
