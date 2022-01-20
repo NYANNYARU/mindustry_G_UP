@@ -24,6 +24,7 @@ ammoTypes: {
   surge-alloy: {
     type: PointBulletType
     damage: 2000
+    damage: 0
     shootEffect: instShoot
     hitEffect: instHit
     smokeEffect: smokeCloud
