@@ -25,13 +25,13 @@ ammoTypes: {
     splashDamage: 50
     status: burning
     statusDuration: 720
-    frontColor: lightishOrange
-    backColor: lightOrange
+    frontColor: f8ad42
+    backColor: f6e096
     makeFire: true
     trailEffect: incendTrail
     ammoMultiplier: 1
-    fragbullets: 250
-    fragbullet: {
+    fragBullets: 250
+    fragBullet: {
         type: FireBulletType
         speed: 32
         lifetime: 60
