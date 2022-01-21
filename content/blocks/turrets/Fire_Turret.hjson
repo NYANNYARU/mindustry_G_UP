@@ -21,10 +21,10 @@ ammoTypes: {
     width: 13
     height: 13
     collidesTiles: false
-    splashDamageRadius: 25 * 0.75
-    splashDamage: 35
+    splashDamageRadius: 24
+    splashDamage: 50
     status: burning
-    statusDuration: 60 * 12
+    statusDuration: 720
     frontColor: lightishOrange
     backColor: lightOrange
     makeFire: true
