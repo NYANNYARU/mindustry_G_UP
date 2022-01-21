@@ -13,7 +13,7 @@ shootSound: bang
 ammoTypes: {
   pyratite: {
     type: ArtilleryBulletType
-    speed: 5
+    speed: 
     damage: 50
     bulletSprite: shell
     hitEffect: blastExplosion
@@ -30,13 +30,13 @@ ammoTypes: {
     makeFire: true
     trailEffect: incendTrail
     ammoMultiplier: 1
-    fragBullets: 500
+    fragBullets: 1000
     fragBullet: {
         type: FireBulletType
         collidesTiles: false
         speed: 24
-        frontColor: f6e096
-        backColor: f8ad42
+        frontColor: ff0000
+        backColor: ff0000
         bulletSprite: shell
         hitEffect: none
         fragBullets: 1
