@@ -31,7 +31,10 @@ ammoTypes: {
     trailEffect: incendTrail
     ammoMultiplier: 1
     fragBullets: 250
-    fragBullet: fireball
+    fragBullet: {
+        type: FireBulletType
+        speed: 32
+    }
   }
 }
 category: turret
