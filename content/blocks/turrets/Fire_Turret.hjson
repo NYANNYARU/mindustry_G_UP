@@ -5,7 +5,7 @@ targetGround: false
 reloadTime: 60
 recoilAmount: 2
 size: 3
-range: 300
+range: 480
 inaccuracy: 0
 shootCone: 5
 health: 1200
@@ -13,11 +13,11 @@ shootSound: bang
 ammoTypes: {
   pyratite: {
     type: ArtilleryBulletType
-    speed: 
+    speed: 3
     damage: 50
     bulletSprite: shell
     hitEffect: blastExplosion
-    lifetime: 80
+    lifetime: 160 
     width: 13
     height: 13
     collidesTiles: false
@@ -34,7 +34,8 @@ ammoTypes: {
     fragBullet: {
         type: FireBulletType
         collidesTiles: false
-        speed: 24
+        speed: 6
+        lifetime: 180 
         frontColor: ff0000
         backColor: ff0000
         bulletSprite: shell
