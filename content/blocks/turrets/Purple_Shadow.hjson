@@ -149,7 +149,7 @@ ammoTypes: {
                         hitSound: explosion
                         trailEffect: artilleryTrail
                         trailEffect: none
-        fragBullets: 2
+        fragBullets: 1
     fragBullet: {
         type: ArtilleryBulletType
         bulletSprite: shell
@@ -172,7 +172,7 @@ ammoTypes: {
         hitSound: explosion
         trailEffect: artilleryTrail
         trailEffect: none
-        fragBullets: 2
+        fragBullets: 1
         fragBullet: {
             type: ArtilleryBulletType
             bulletSprite: shell
@@ -195,7 +195,7 @@ ammoTypes: {
             hitSound: explosion
             trailEffect: artilleryTrail
             trailEffect: none
-            fragBullets: 2
+            fragBullets: 1
             fragBullet: {
                 type: ArtilleryBulletType
                 bulletSprite: shell
@@ -218,7 +218,7 @@ ammoTypes: {
                 hitSound: explosion
                 trailEffect: artilleryTrail
                 trailEffect: none
-                fragBullets: 2
+                fragBullets: 1
                 fragBullet: {
                     type: ArtilleryBulletType
                     bulletSprite: shell
@@ -241,7 +241,7 @@ ammoTypes: {
                     hitSound: explosion
                     trailEffect: artilleryTrail
                     trailEffect: none
-                    fragBullets: 2
+                    fragBullets: 1
                     fragBullet: {
                         type: ArtilleryBulletType
                         bulletSprite: shell
@@ -264,7 +264,7 @@ ammoTypes: {
                         hitSound: explosion
                         trailEffect: artilleryTrail
                         trailEffect: none
-        fragBullets: 2
+        fragBullets: 1
     fragBullet: {
         type: ArtilleryBulletType
         bulletSprite: shell
@@ -287,7 +287,7 @@ ammoTypes: {
         hitSound: explosion
         trailEffect: artilleryTrail
         trailEffect: none
-        fragBullets: 2
+        fragBullets: 1
         fragBullet: {
             type: ArtilleryBulletType
             bulletSprite: shell
@@ -310,7 +310,7 @@ ammoTypes: {
             hitSound: explosion
             trailEffect: artilleryTrail
             trailEffect: none
-            fragBullets: 2
+            fragBullets: 1
             fragBullet: {
                 type: ArtilleryBulletType
                 bulletSprite: shell
@@ -333,7 +333,7 @@ ammoTypes: {
                 hitSound: explosion
                 trailEffect: artilleryTrail
                 trailEffect: none
-                fragBullets: 2
+                fragBullets: 1
                 fragBullet: {
                     type: ArtilleryBulletType
                     bulletSprite: shell
@@ -356,7 +356,7 @@ ammoTypes: {
                     hitSound: explosion
                     trailEffect: artilleryTrail
                     trailEffect: none
-                    fragBullets: 2
+                    fragBullets: 1
                     fragBullet: {
                         type: ArtilleryBulletType
                         bulletSprite: shell
@@ -379,7 +379,7 @@ ammoTypes: {
                         hitSound: explosion
                         trailEffect: artilleryTrail
                         trailEffect: none
-        fragBullets: 2
+        fragBullets: 1
     fragBullet: {
         type: ArtilleryBulletType
         bulletSprite: shell
@@ -402,7 +402,7 @@ ammoTypes: {
         hitSound: explosion
         trailEffect: artilleryTrail
         trailEffect: none
-        fragBullets: 2
+        fragBullets: 1
         fragBullet: {
             type: ArtilleryBulletType
             bulletSprite: shell
@@ -425,7 +425,7 @@ ammoTypes: {
             hitSound: explosion
             trailEffect: artilleryTrail
             trailEffect: none
-            fragBullets: 2
+            fragBullets: 1
             fragBullet: {
                 type: ArtilleryBulletType
                 bulletSprite: shell
@@ -448,7 +448,7 @@ ammoTypes: {
                 hitSound: explosion
                 trailEffect: artilleryTrail
                 trailEffect: none
-                fragBullets: 2
+                fragBullets: 1
                 fragBullet: {
                     type: ArtilleryBulletType
                     bulletSprite: shell
@@ -471,7 +471,122 @@ ammoTypes: {
                     hitSound: explosion
                     trailEffect: artilleryTrail
                     trailEffect: none
-                    fragBullets: 2
+                    fragBullets: 1
+                    fragBullet: {
+                        type: ArtilleryBulletType
+                        bulletSprite: shell
+                        hitEffect: flakExplosion
+                        speed: 1.5
+                        damage: 0
+                        splashDamage: 40
+                        splashDamageRadius: 24
+                        width: 12
+                        height: 8
+                        lifetime: 10
+                        shrinkX: 0
+                        shrinkY: 0
+        
+                        collidesTiles: false
+                        collides: false
+                        collidesAir: true
+                        scaleVelocity: false
+                        hitShake: 1
+                        hitSound: explosion
+                        trailEffect: artilleryTrail
+                        trailEffect: none
+        fragBullets: 1
+    fragBullet: {
+        type: ArtilleryBulletType
+        bulletSprite: shell
+        hitEffect: flakExplosion
+        speed: 1.5
+        damage: 40
+        splashDamage: 40
+        splashDamageRadius: 24
+        width: 12
+        height: 8
+        lifetime: 10
+        shrinkX: 0
+        shrinkY: 0
+        
+        collidesTiles: false
+        collides: false
+        collidesAir: true
+        scaleVelocity: false
+        hitShake: 1
+        hitSound: explosion
+        trailEffect: artilleryTrail
+        trailEffect: none
+        fragBullets: 1
+        fragBullet: {
+            type: ArtilleryBulletType
+            bulletSprite: shell
+            hitEffect: flakExplosion
+            speed: 1.5
+            damage: 0
+            splashDamage: 40
+            splashDamageRadius: 24
+            width: 12
+            height: 8
+            lifetime: 10
+            shrinkX: 0
+            shrinkY: 0
+        
+            collidesTiles: false
+            collides: false
+            collidesAir: true
+            scaleVelocity: false
+            hitShake: 1
+            hitSound: explosion
+            trailEffect: artilleryTrail
+            trailEffect: none
+            fragBullets: 1
+            fragBullet: {
+                type: ArtilleryBulletType
+                bulletSprite: shell
+                hitEffect: flakExplosion
+                speed: 1.5
+                damage: 0
+                splashDamage: 40
+                splashDamageRadius: 24
+                width: 12
+                height: 8
+                lifetime: 10
+                shrinkX: 0
+                shrinkY: 0
+        
+                collidesTiles: false
+                collides: false
+                collidesAir: true
+                scaleVelocity: false
+                hitShake: 1
+                hitSound: explosion
+                trailEffect: artilleryTrail
+                trailEffect: none
+                fragBullets: 1
+                fragBullet: {
+                    type: ArtilleryBulletType
+                    bulletSprite: shell
+                    hitEffect: flakExplosion
+                    speed: 1.5
+                    damage: 0
+                    splashDamage: 40
+                    splashDamageRadius: 24
+                    width: 12
+                    height: 8
+                    lifetime: 10
+                    shrinkX: 0
+                    shrinkY: 0
+        
+                    collidesTiles: false
+                    collides: false
+                    collidesAir: true
+                    scaleVelocity: false
+                    hitShake: 1
+                    hitSound: explosion
+                    trailEffect: artilleryTrail
+                    trailEffect: none
+                    fragBullets: 1
                     fragBullet: {
                         type: ArtilleryBulletType
                         bulletSprite: shell
@@ -495,6 +610,11 @@ ammoTypes: {
                         trailEffect: artilleryTrail
                         trailEffect: none
         
+                    }
+                }
+            }
+        }
+    }
                     }
                 }
             }
