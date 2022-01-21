@@ -35,7 +35,7 @@ ammoTypes: {
         type: BasicBulletType
         collidesTiles: false
         speed: 6
-        lifetime: 180 
+        lifetime: 100
         frontColor: ff0000
         backColor: ff0000
         bulletSprite: shell
