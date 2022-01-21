@@ -32,7 +32,7 @@ ammoTypes: {
     ammoMultiplier: 1
     fragBullets: 1000
     fragBullet: {
-        type: FireBulletType
+        type: BasicBulletType
         collidesTiles: false
         speed: 6
         lifetime: 180 
