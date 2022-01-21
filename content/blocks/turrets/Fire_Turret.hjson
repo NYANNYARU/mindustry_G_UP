@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Fire Turret
+targetAir: false
+targetGround: false
+reloadTime: 60
+recoilAmount: 2
+size: 3
+range: 300
+inaccuracy: 0
+shootCone: 5
+health: 1200
+shootSound: bang
+ammoTypes: {
+  pyratite: {
+    type: ArtilleryBulletType
+    speed: 5
+    damage: 50
+    bulletSprite: shell
+    hitEffect: blastExplosion
+    lifetime: 80
+    width: 13
+    height: 13
+    collidesTiles: false
+    splashDamageRadius: 25 * 0.75
+    splashDamage: 35
+    status: burning
+    statusDuration: 60 * 12
+    frontColor: lightishOrange
+    backColor: lightOrange
+    makeFire: true
+    trailEffect: incendTrail
+    ammoMultiplier: 1
+    fragbullets: 250
+    fragbullet: {
+        type: FireBulletType
+        speed: 32
+        lifetime: 60
+    }
+  }
+}
