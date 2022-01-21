@@ -38,3 +38,10 @@ ammoTypes: {
     }
   }
 }
+category: turret
+requirements: [
+  copper/250
+  silicon/500
+  Sodium_Battery/500
+]
+research: scorch
